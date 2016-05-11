@@ -7,7 +7,7 @@ var $nav = $(".navbar-default");
    if ( $(this).scrollTop() > 650){
       $nav.addClass("navbar-fixed-top").css("opacity","1");
         } 
-       else if($(this).scrollTop() <= 650 ){      $nav.removeClass("navbar-fixed-top").css("opacity","0,5");
+       else if($(this).scrollTop() <= 650 ){      $nav.removeClass("navbar-fixed-top").css("opacity","1");
    }
    });
 
