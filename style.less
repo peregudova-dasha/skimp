@@ -49,7 +49,7 @@ h2 {font-size: @h2;
       p {
         padding: 0;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 5px;
         font-size: 1.6em;
       }
       a {color: inherit;}
@@ -347,7 +347,9 @@ color: @w;
       border-top: 3px solid @db;
       border-bottom: 3px solid @db;
       margin: 0px auto;
-      width: 400px;}
+      width: 400px;
+      text-align: center;
+    }
     .service {
       margin: 50px 0px 0px 0px; 
       width: 100%;
@@ -372,9 +374,10 @@ color: @w;
       p {
           text-align:center;
           margin: 0px auto; 
-          font-size: 2em;
-          color: @b;
+          font-size: 1.75em;
+          color: @w;
            opacity: 1;
+           font-weight: 400;
         }
     }
 
@@ -492,18 +495,27 @@ color: @w;
 
 // PORTFOLIO
 
-#works {
+#work {
    margin-top: 100px;
+
+   h1 {font-size:2em;
+    display: block;
+    padding: 20px;
+      border-top: 3px solid @db;
+      border-bottom: 3px solid @db;
+      margin: 50px auto 80px auto;
+      width: 400px;
+      text-align: center;}
     .our_works {
        
         li {
             display: inline-block;
-            background: @dy;
+            background: @mb;
             padding: 15px 20px;
             margin-bottom: -10px;
             border-radius: 10px 10px 0 0;
             a {
-              color: @dg;
+              color: @ddb;
               font-size: 1.4em;
             }
             a:hover {
@@ -511,9 +523,10 @@ color: @w;
                 
               }
           }
-        li:hover {background: @y;}
+        li:hover {background: @lb;}
         .tab-current {
-          background:@y;
+          background:@lb;
+          color: @w;
           padding: 25px 3% 15px 3%;
         
         }
@@ -542,7 +555,8 @@ color: @w;
 
 .head {
   padding: 100px 100px;
-  background: @y;
+  background: @lb;
+  color: @w;
   text-align: center;
 }
 
@@ -559,23 +573,23 @@ color: @w;
         display: block;
         font-size: 1.5em;
         padding: 10px;
-        background: @dy;
+        background: @mb;
         margin: 5px 0 5px 10px;
         border-radius: 10px 0 0 10px;
-        a {color: @dg; }
-        a:hover { text-decoration: none; color: @dg}
+        a {color: @ddb; }
+        a:hover { text-decoration: none; color: @db}
       }
       li:hover {
-         background: @y;
+         background: @lb;
        }
        .tab-current {
-         background: @y;
+         background: @lb;
          padding: 20px;
          margin-left: 0px;
        }
     }
   }
-  .border { border-left: 1px solid @y;}
+  .border { border-left: 1px solid @db;}
   .content {
     height: 800px;
     .t2,.t3,.t4, .t5, .t6, .t7 {display: none}

@@ -1,3 +1,6 @@
+/* ---------------------- */
+/* STYLES TO ALL ELEMENTS */
+/* ---------------------- */
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -21,7 +24,7 @@ p {
   background: #1e6287;
 }
 .end3 {
-  background: #fff;
+  background: #ffffff;
 }
 .button {
   height: 50px;
@@ -34,7 +37,7 @@ p {
 .button p {
   padding: 0;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5px;
   font-size: 1.6em;
 }
 .button a {
@@ -43,6 +46,8 @@ p {
 .button a:hover {
   text-decoration: none;
 }
+/* -------------------- */
+/* -------------------- */
 header #navigation {
   position: absolute;
   top: 660px;
@@ -59,13 +64,13 @@ header #navigation .navbar {
 }
 header #navigation .navbar a:hover {
   background: #1e6287;
-  color: #fff;
+  color: #ffffff;
 }
 header #navigation .navbar ul {
   font-size: 1.25em;
 }
 header #navigation .navbar ul li a {
-  color: #fff;
+  color: #ffffff;
 }
 header #navigation .navbar ul li:active {
   background: #20262d;
@@ -108,7 +113,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 5em;
-  color: #fff;
+  color: #ffffff;
   border: 5px solid;
   width: 400px;
   padding: 10px;
@@ -117,7 +122,7 @@ header #navigation .navbar .dropdown-menu li a {
 #title p {
   text-align: center;
   font-size: 1.2em;
-  color: #fff;
+  color: #ffffff;
   padding: 20px 300px;
   margin-top: 50px;
 }
@@ -137,15 +142,15 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #we_are {
   background: #76bbe3;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding-top: 80px;
 }
 #we_are h2 {
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 0px auto;
   width: 350px;
 }
@@ -156,11 +161,11 @@ header #navigation .navbar .dropdown-menu li a {
   padding: 30px 100px 0 100px;
 }
 #services {
-  background: #fff;
+  background: #ffffff;
   padding-top: 50px;
 }
 #services .serv_h2 {
-  background: #fff;
+  background: #ffffff;
   color: #2d3640;
   padding: 70px;
 }
@@ -173,7 +178,7 @@ header #navigation .navbar .dropdown-menu li a {
   width: 330px;
 }
 #services .container {
-  background: #fff;
+  background: #ffffff;
 }
 #services .container .service {
   margin: 20px 0;
@@ -203,7 +208,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   margin: 0px auto;
   font-size: 2em;
-  color: #fff;
+  color: #ffffff;
   opacity: 1;
 }
 #services .container .serv1 {
@@ -238,39 +243,48 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #works {
   background: #2d3640;
-  color: #fff;
+  color: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
+  /*********** BUTTONS ***********/
 }
 #works h2 {
   font-size: 2.5em;
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 70px auto 0px auto;
   width: 550px;
 }
 #works .carousel {
   max-width: 980px;
+  /* ширина всего блока */
   margin: 50px auto;
   width: 100%;
 }
 #works .carousel-wrapper {
   margin: 10px 30px;
+  /* отступы для стрелок */
   overflow: hidden;
+  /* скрываем содержимое, выходящее за рамки основной области */
   position: relative;
 }
 #works .carousel-items {
   width: 10000px;
+  /* устанавливаем большую ширину для набора элементов */
   position: relative;
+  /* позиционируем блок относительно основной области карусели */
 }
 #works .carousel-block {
   float: left;
+  /* выстраиваем все элементы карусели в ряд */
   width: 220px;
+  /* задаём ширину каждого элемента */
   height: 100%;
   overflow: hidden;
   padding: 20px;
+  /* делаем оступы, чтобы элементы не сливались */
 }
 #works .carousel-block .work {
   display: block;
@@ -329,7 +343,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #services_page {
   margin: 100px auto;
-  font-family:@font;
+  font-family: 'Open Sans', sans-serif;
 }
 #services_page h1 {
   font-size: 2.5em;
@@ -339,6 +353,7 @@ header #navigation .navbar .dropdown-menu li a {
   border-bottom: 3px solid #2d3640;
   margin: 0px auto;
   width: 400px;
+  text-align: center;
 }
 #services_page .service {
   margin: 50px 0px 0px 0px;
@@ -366,9 +381,10 @@ header #navigation .navbar .dropdown-menu li a {
 #services_page .service p {
   text-align: center;
   margin: 0px auto;
-  font-size: 2em;
-  color: #171400;
+  font-size: 1.75em;
+  color: #ffffff;
   opacity: 1;
+  font-weight: 400;
 }
 #services_page .serv1 {
   background: url("img/serv/1.jpg") 20% 20%;
@@ -395,7 +411,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #services_page .links {
   border-left: 2px solid #1e6287;
-  padding: 10px;
+  padding: 10px ;
 }
 #services_page .links a {
   display: inline-block;
@@ -433,7 +449,7 @@ header #navigation .navbar .dropdown-menu li a {
   padding-left: 50px;
 }
 #priorities {
-  background: #fff;
+  background: #ffffff;
   margin-top: 100px;
 }
 #priorities .container:first-child {
@@ -481,47 +497,59 @@ header #navigation .navbar .dropdown-menu li a {
 #priorities .container .try {
   margin: 0 100px;
 }
-#works {
+#work {
   margin-top: 100px;
 }
-#works .our_works li {
+#work h1 {
+  font-size: 2em;
+  display: block;
+  padding: 20px;
+  border-top: 3px solid #2d3640;
+  border-bottom: 3px solid #2d3640;
+  margin: 50px auto 80px auto;
+  width: 400px;
+  text-align: center;
+}
+#work .our_works li {
   display: inline-block;
-  background: #e8be00;
+  background: #1e6287;
   padding: 15px 20px;
   margin-bottom: -10px;
   border-radius: 10px 10px 0 0;
 }
-#works .our_works li a {
-  color: #1C1C1C;
+#work .our_works li a {
+  color: #20262d;
   font-size: 1.4em;
 }
-#works .our_works li a:hover {
+#work .our_works li a:hover {
   text-decoration: none;
 }
-#works .our_works li:hover {
-  background: #fcce00;
+#work .our_works li:hover {
+  background: #76bbe3;
 }
-#works .our_works .tab-current {
-  background: #fcce00;
+#work .our_works .tab-current {
+  background: #76bbe3;
+  color: #ffffff;
   padding: 25px 3% 15px 3%;
 }
-#works .our_works .cont .t2,
-#works .our_works .cont .t3,
-#works .our_works .cont .t4,
-#works .our_works .cont .t5 {
+#work .our_works .cont .t2,
+#work .our_works .cont .t3,
+#work .our_works .cont .t4,
+#work .our_works .cont .t5 {
   display: none;
 }
-#works .our_works .cont .content {
+#work .our_works .cont .content {
   padding-top: 50px;
   padding-bottom: 50px;
   border-top: 1px solid #e8be00;
 }
-#works .our_works .cont .content1 img {
+#work .our_works .cont .content1 img {
   width: 100%;
 }
 .head {
   padding: 100px 100px;
-  background: #fcce00;
+  background: #76bbe3;
+  color: #ffffff;
   text-align: center;
 }
 .tab_content {
@@ -535,27 +563,27 @@ header #navigation .navbar .dropdown-menu li a {
   display: block;
   font-size: 1.5em;
   padding: 10px;
-  background: #e8be00;
+  background: #1e6287;
   margin: 5px 0 5px 10px;
   border-radius: 10px 0 0 10px;
 }
 .tab_content aside ul li a {
-  color: #1C1C1C;
+  color: #20262d;
 }
 .tab_content aside ul li a:hover {
   text-decoration: none;
-  color: #1C1C1C;
+  color: #2d3640;
 }
 .tab_content aside ul li:hover {
-  background: #fcce00;
+  background: #76bbe3;
 }
 .tab_content aside ul .tab-current {
-  background: #fcce00;
+  background: #76bbe3;
   padding: 20px;
   margin-left: 0px;
 }
 .tab_content .border {
-  border-left: 1px solid #fcce00;
+  border-left: 1px solid #2d3640;
 }
 .tab_content .content {
   height: 800px;
@@ -572,7 +600,7 @@ header #navigation .navbar .dropdown-menu li a {
   font-size: 2.3em;
   text-align: center;
   margin-bottom: 40px;
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
 .tab_content p {
   margin: 50px;
@@ -925,13 +953,13 @@ header #navigation .navbar .dropdown-menu li a {
   font-size: 2.5em;
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 70px auto 0px auto;
   width: 400px;
 }
 #feedback .container {
-  color: #fff;
+  color: #ffffff;
 }
 #feedback .container h2 {
   margin-top: 50px;
@@ -1037,6 +1065,8 @@ footer .right p {
   text-align: right;
   margin-top: 80px;
 }
+/* Media queries */
+/*PHONE*/
 @media all and (max-width: 767px) {
   .container {
     max-width: 730px;
@@ -1192,6 +1222,7 @@ footer .right p {
     padding: 0;
   }
 }
+/*TABLETS*/
 @media all and (min-width: 768px) and (max-width: 991px) {
   .container {
     width: 95%;
@@ -1243,11 +1274,13 @@ footer .right p {
     padding: 50px 0;
   }
 }
+/*MEDIUM DEVICE*/
 @media all and (min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 95%;
   }
 }
+/*LARGE DEVICE*/
 @media all and (min-width: 1201px) {
   .container {
     width: 95%;
