@@ -90,9 +90,10 @@ header #navigation .navbar .dropdown-menu li a {
   width: 100%;
   background: #2d3640;
   opacity: 0.5;
+  top: 0px;
 }
 .image {
-  position: absolute;
+  position: relative;
   width: 100%;
   background: url("https://static.pexels.com/photos/6664/magazines-stack-reading-magazine.jpg") no-repeat 50% 0%;
   background-size: cover;
@@ -138,7 +139,7 @@ header #navigation .navbar .dropdown-menu li a {
   background: #76bbe3;
   color: #fff;
   text-align: center;
-  padding-top: 700px;
+  padding-top: 80px;
 }
 #we_are h2 {
   display: block;
@@ -998,7 +999,7 @@ footer {
 footer .logo {
   height: 50px;
   width: 50px;
-  background: url("img/logo3.png") no-repeat;
+  background: url("img/logo.png") no-repeat;
   background-size: cover;
   margin: 40px auto 15px auto;
 }
