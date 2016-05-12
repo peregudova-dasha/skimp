@@ -329,6 +329,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #services_page {
   margin: 100px auto;
+  font-family:@font;
 }
 #services_page h1 {
   font-size: 2.5em;
