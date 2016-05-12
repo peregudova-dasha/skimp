@@ -331,7 +331,13 @@ header #navigation .navbar .dropdown-menu li a {
   margin: 100px auto;
 }
 #services_page h1 {
-  text-align: center;
+  font-size: 2.5em;
+  display: block;
+  padding: 20px;
+  border-top: 3px solid #2d3640;
+  border-bottom: 3px solid #2d3640;
+  margin: 0px auto;
+  width: 400px;
 }
 #services_page .service {
   margin: 50px 0px 0px 0px;
@@ -345,7 +351,7 @@ header #navigation .navbar .dropdown-menu li a {
 #services_page .service .s_icon {
   width: 85%;
   height: 145px;
-  background: #fcce00;
+  background: #76bbe3;
   margin: 20px auto;
   opacity: 0.8;
   padding-top: 15px;
@@ -387,27 +393,30 @@ header #navigation .navbar .dropdown-menu li a {
   margin-top: 50px;
 }
 #services_page .links {
-  border-left: 2px solid #fcce00;
+  border-left: 2px solid #1e6287;
   padding: 10px;
 }
 #services_page .links a {
   display: inline-block;
-  color: #A0850C;
+  color: #2d3640;
   font-size: 1.3em;
   padding: 0 30px 8px 0;
 }
 #services_page .links a:hover {
   text-decoration: none;
-  color: #e8be00;
+  color: #1e6287;
 }
 #about {
   margin: 100px auto;
 }
 #about h1 {
-  text-align: center;
-  font-family: "Poiret One", serif;
-  font-weight: bold;
-  margin-bottom: 70px;
+  font-size: 2.5em;
+  display: block;
+  padding: 20px;
+  border-top: 3px solid #2d3640;
+  border-bottom: 3px solid #2d3640;
+  margin: 0px auto 70px auto;
+  width: 400px;
 }
 #about .logo img {
   width: 60%;
@@ -430,8 +439,13 @@ header #navigation .navbar .dropdown-menu li a {
   border-top: 1px solid #fcce00;
 }
 #priorities h2 {
-  color: #1C1C1C;
-  margin-top: 70px;
+  font-size: 2.5em;
+  display: block;
+  padding: 20px;
+  border-top: 3px solid #2d3640;
+  border-bottom: 3px solid #2d3640;
+  margin: 70px auto 0px auto;
+  width: 400px;
 }
 #priorities .pr {
   height: 95px;
