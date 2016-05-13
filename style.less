@@ -179,7 +179,7 @@ color: @w;
       margin: 20px 0;
       width: 100%;
       height: 250px;
-      padding-top: 10px;
+      padding-top: 30px;
       opacity: 0;
       a:hover {text-decoration: none;}
       .s_icon {
@@ -199,7 +199,7 @@ color: @w;
       p {
         text-align:center;
         margin: 0px auto; 
-        font-size: 2em;
+        font-size: 1.8em;
         color: @w;
         opacity: 1;
       }
@@ -1157,34 +1157,45 @@ footer {
           header {
            #navigation {
             .navbar{background: none;box-shadow: none;
+              .navbar-collapse {background: @db;}
             }
 
           }
         }
 
 // MAIN PAGE
-
+      #blue, .image {height: 580px;}
      #title {
          top: 70px;
-         h1 {font-size: 4.5em; }
-         p {margin:0; padding: 10px 30px; font-size: 1.2em;}
+         h1 {font-size: 3.5em; width: 230px}
+         p {margin-top:50px; padding: 10px 30px; font-size: 1.2em;}
          img {width: 100px; }
+       #number {font-size: 1.5em;}
        }
 
     #we_are{
+      padding-top: 10px;
+      h2 {font-size: 1.8em; width: 230px}
         p{ padding: 20px 10px;}
+      .container {
+        padding-bottom: 50px;
+      }
     }
 
     #services {
+      
       .container {
+        .serv_h2 {
+          padding: 0;
+          h2 {font-size: 1.8em; width: 230px; text-align: center;}}
         .service{
-          .s_icon{p {font-size: 1.25em;}}
+          .s_icon{p {font-size: 1.25em; line-height: 1}}
         }
       }
     }
 
     #works {
-      h2 {font-size: 2.3em;}
+       h2 {font-size: 1.22em; width: 230px}
       .carousel-block {
         width: 225px;
         p {text-align: center;}
@@ -1303,7 +1314,8 @@ h1 {font-size: 2em;}
 
 
     #feedback {
-
+      .container {padding: 0;}
+ h2 {font-size: 1.8em; width: 230px}
       margin: 20px 0px;
       #line {display: block;}
       .input {
@@ -1324,6 +1336,7 @@ h1 {font-size: 2em;}
 
   /*TABLETS*/
   @media all and (min-width:768px) and (max-width:991px){
+    * {margin: 0;}
    .container {width: 95%; margin: 0;}
 
   //MAIN PAGE 
@@ -1332,42 +1345,20 @@ h1 {font-size: 2em;}
 
     }
  
-  
-    #priorities {
-        .priority {
-          margin: 50px 20px;
-          .pr{  height: 150px;
-            .icon {
-             padding: 0px;
-             width: 7%;
-             float: left;
-           }
-         }
-       }
-     }
-
      #services {
-        .container {
-
-        }
+       padding-bottom: 50px;
+       .service {
+         .s_icon {p { font-size: 1.5em;line-height: 1;}}}
         .button { margin: 15px auto;
           button {padding: 0;
             margin: 0;
             height: 30px;
-          }
+                     }
 
         }
     }
 
-    #clients {
-        .logo {
-          img {
-           max-width: 240px;
-
-         }
-       }
-    }
-
+   
 
 // MAIN PAGE END
 
@@ -1404,12 +1395,13 @@ h1 {font-size: 2em;}
   .head {
     padding: 50px 0;
   }
-//SERVICE CONTENT END
-
-
 }
 
+//SERVICE CONTENT END
 
+#feedback {
+  p { text-align: center;}
+}
 
 
 
