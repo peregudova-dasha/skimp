@@ -533,10 +533,13 @@ header #navigation .navbar .dropdown-menu li a {
   width: 100%;
 }
 .head {
-  padding: 100px 100px;
+  padding: 100px 100px 70px 100px;
   background: #76bbe3;
   color: #fff;
   text-align: center;
+}
+.head p {
+  padding-top: 30px;
 }
 .tab_content {
   margin: 100px auto 50px auto;
@@ -600,8 +603,14 @@ header #navigation .navbar .dropdown-menu li a {
   display: inline-block;
   margin: 0 5px;
 }
+.tab_content .types h4 {
+  padding: 0 0 20px 40px;
+  font-weight: bold;
+  color: #2d3640;
+}
 .tab_content .types ul {
   list-style-image: url("img/list_style4.png");
+  margin: 0 20px;
 }
 .tab_content .types ul li {
   font-size: 1.3em;
