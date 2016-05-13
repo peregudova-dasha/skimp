@@ -1,6 +1,3 @@
-/* ---------------------- */
-/* STYLES TO ALL ELEMENTS */
-/* ---------------------- */
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -24,7 +21,7 @@ p {
   background: #1e6287;
 }
 .end3 {
-  background: #ffffff;
+  background: #fff;
 }
 .button {
   height: 50px;
@@ -46,8 +43,6 @@ p {
 .button a:hover {
   text-decoration: none;
 }
-/* -------------------- */
-/* -------------------- */
 header #navigation {
   position: absolute;
   top: 660px;
@@ -64,13 +59,13 @@ header #navigation .navbar {
 }
 header #navigation .navbar a:hover {
   background: #1e6287;
-  color: #ffffff;
+  color: #fff;
 }
 header #navigation .navbar ul {
   font-size: 1.25em;
 }
 header #navigation .navbar ul li a {
-  color: #ffffff;
+  color: #fff;
 }
 header #navigation .navbar ul li:active {
   background: #20262d;
@@ -113,7 +108,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 5em;
-  color: #ffffff;
+  color: #fff;
   border: 5px solid;
   width: 400px;
   padding: 10px;
@@ -122,7 +117,7 @@ header #navigation .navbar .dropdown-menu li a {
 #title p {
   text-align: center;
   font-size: 1.2em;
-  color: #ffffff;
+  color: #fff;
   padding: 20px 300px;
   margin-top: 50px;
 }
@@ -142,15 +137,15 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #we_are {
   background: #76bbe3;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   padding-top: 80px;
 }
 #we_are h2 {
   display: block;
   padding: 20px;
-  border-top: 3px solid #ffffff;
-  border-bottom: 3px solid #ffffff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   margin: 0px auto;
   width: 350px;
 }
@@ -161,11 +156,11 @@ header #navigation .navbar .dropdown-menu li a {
   padding: 30px 100px 0 100px;
 }
 #services {
-  background: #ffffff;
+  background: #fff;
   padding-top: 50px;
 }
 #services .serv_h2 {
-  background: #ffffff;
+  background: #fff;
   color: #2d3640;
   padding: 70px;
 }
@@ -178,13 +173,13 @@ header #navigation .navbar .dropdown-menu li a {
   width: 330px;
 }
 #services .container {
-  background: #ffffff;
+  background: #fff;
 }
 #services .container .service {
   margin: 20px 0;
   width: 100%;
   height: 250px;
-  padding-top: 10px;
+  padding-top: 30px;
   opacity: 0;
 }
 #services .container .service a:hover {
@@ -207,8 +202,8 @@ header #navigation .navbar .dropdown-menu li a {
 #services .container .service p {
   text-align: center;
   margin: 0px auto;
-  font-size: 2em;
-  color: #ffffff;
+  font-size: 1.8em;
+  color: #fff;
   opacity: 1;
 }
 #services .container .serv1 {
@@ -243,48 +238,39 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #works {
   background: #2d3640;
-  color: #ffffff;
+  color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
-  /*********** BUTTONS ***********/
 }
 #works h2 {
   font-size: 2.5em;
   display: block;
   padding: 20px;
-  border-top: 3px solid #ffffff;
-  border-bottom: 3px solid #ffffff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   margin: 70px auto 0px auto;
   width: 550px;
 }
 #works .carousel {
   max-width: 980px;
-  /* ширина всего блока */
   margin: 50px auto;
   width: 100%;
 }
 #works .carousel-wrapper {
   margin: 10px 30px;
-  /* отступы для стрелок */
   overflow: hidden;
-  /* скрываем содержимое, выходящее за рамки основной области */
   position: relative;
 }
 #works .carousel-items {
   width: 10000px;
-  /* устанавливаем большую ширину для набора элементов */
   position: relative;
-  /* позиционируем блок относительно основной области карусели */
 }
 #works .carousel-block {
   float: left;
-  /* выстраиваем все элементы карусели в ряд */
   width: 220px;
-  /* задаём ширину каждого элемента */
   height: 100%;
   overflow: hidden;
   padding: 20px;
-  /* делаем оступы, чтобы элементы не сливались */
 }
 #works .carousel-block .work {
   display: block;
@@ -382,7 +368,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   margin: 0px auto;
   font-size: 1.75em;
-  color: #ffffff;
+  color: #fff;
   opacity: 1;
   font-weight: 400;
 }
@@ -411,7 +397,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #services_page .links {
   border-left: 2px solid #1e6287;
-  padding: 10px ;
+  padding: 10px;
 }
 #services_page .links a {
   display: inline-block;
@@ -449,7 +435,7 @@ header #navigation .navbar .dropdown-menu li a {
   padding-left: 50px;
 }
 #priorities {
-  background: #ffffff;
+  background: #fff;
   margin-top: 100px;
 }
 #priorities .container:first-child {
@@ -529,7 +515,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #work .our_works .tab-current {
   background: #76bbe3;
-  color: #ffffff;
+  color: #fff;
   padding: 25px 3% 15px 3%;
 }
 #work .our_works .cont .t2,
@@ -549,7 +535,7 @@ header #navigation .navbar .dropdown-menu li a {
 .head {
   padding: 100px 100px;
   background: #76bbe3;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 .tab_content {
@@ -600,7 +586,7 @@ header #navigation .navbar .dropdown-menu li a {
   font-size: 2.3em;
   text-align: center;
   margin-bottom: 40px;
-  color: #1c1c1c;
+  color: #1C1C1C;
 }
 .tab_content p {
   margin: 50px;
@@ -953,13 +939,13 @@ header #navigation .navbar .dropdown-menu li a {
   font-size: 2.5em;
   display: block;
   padding: 20px;
-  border-top: 3px solid #ffffff;
-  border-bottom: 3px solid #ffffff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   margin: 70px auto 0px auto;
   width: 400px;
 }
 #feedback .container {
-  color: #ffffff;
+  color: #fff;
 }
 #feedback .container h2 {
   margin-top: 50px;
@@ -1065,8 +1051,6 @@ footer .right p {
   text-align: right;
   margin-top: 80px;
 }
-/* Media queries */
-/*PHONE*/
 @media all and (max-width: 767px) {
   .container {
     max-width: 730px;
@@ -1075,28 +1059,59 @@ footer .right p {
     background: none;
     box-shadow: none;
   }
+  header #navigation .navbar .navbar-collapse {
+    background: #2d3640;
+  }
+  #blue,
+  .image {
+    height: 580px;
+  }
   #title {
     top: 70px;
   }
   #title h1 {
-    font-size: 4.5em;
+    font-size: 3.5em;
+    width: 230px;
   }
   #title p {
-    margin: 0;
+    margin-top: 50px;
     padding: 10px 30px;
     font-size: 1.2em;
   }
   #title img {
     width: 100px;
   }
+  #title #number {
+    font-size: 1.5em;
+  }
+  #we_are {
+    padding-top: 10px;
+  }
+  #we_are h2 {
+    font-size: 1.8em;
+    width: 230px;
+  }
   #we_are p {
     padding: 20px 10px;
   }
+  #we_are .container {
+    padding-bottom: 50px;
+  }
+  #services .container .serv_h2 {
+    padding: 0;
+  }
+  #services .container .serv_h2 h2 {
+    font-size: 1.8em;
+    width: 230px;
+    text-align: center;
+  }
   #services .container .service .s_icon p {
     font-size: 1.25em;
+    line-height: 1;
   }
   #works h2 {
-    font-size: 2.3em;
+    font-size: 1.22em;
+    width: 230px;
   }
   #works .carousel-block {
     width: 225px;
@@ -1207,6 +1222,13 @@ footer .right p {
   #feedback {
     margin: 20px 0px;
   }
+  #feedback .container {
+    padding: 0;
+  }
+  #feedback h2 {
+    font-size: 1.8em;
+    width: 230px;
+  }
   #feedback #line {
     display: block;
   }
@@ -1222,8 +1244,10 @@ footer .right p {
     padding: 0;
   }
 }
-/*TABLETS*/
 @media all and (min-width: 768px) and (max-width: 991px) {
+  * {
+    margin: 0;
+  }
   .container {
     width: 95%;
     margin: 0;
@@ -1231,16 +1255,12 @@ footer .right p {
   #title p {
     padding: 10px 50px;
   }
-  #priorities .priority {
-    margin: 50px 20px;
+  #services {
+    padding-bottom: 50px;
   }
-  #priorities .priority .pr {
-    height: 150px;
-  }
-  #priorities .priority .pr .icon {
-    padding: 0px;
-    width: 7%;
-    float: left;
+  #services .service .s_icon p {
+    font-size: 1.5em;
+    line-height: 1;
   }
   #services .button {
     margin: 15px auto;
@@ -1249,9 +1269,6 @@ footer .right p {
     padding: 0;
     margin: 0;
     height: 30px;
-  }
-  #clients .logo img {
-    max-width: 240px;
   }
   #priorities .priority {
     margin: 50px 20px;
@@ -1274,13 +1291,14 @@ footer .right p {
     padding: 50px 0;
   }
 }
-/*MEDIUM DEVICE*/
+#feedback p {
+  text-align: center;
+}
 @media all and (min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 95%;
   }
 }
-/*LARGE DEVICE*/
 @media all and (min-width: 1201px) {
   .container {
     width: 95%;
