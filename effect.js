@@ -1,4 +1,24 @@
-
+$(document).ready(function(){
+  $("#h1").delay(500).slideDown(800);
+  $("h1").delay(1300).fadeIn(1000);
+  $("#description").delay(2300).animate({opacity: 1}, 600);
+  $(".number").delay(2800).animate({opacity: 1}, 600);
+/*
+  $.fn.animate_Text = function() {
+  var string = this.text();
+  return this.each(function(){
+   var $this = $(this).delay(2300);
+   $this.html(string.replace(/./g, '<span class="new">$&</span>'));
+   $this.find('span.new').each(function(i, el){
+    setTimeout(function(){ $(el).addClass('div_opacity'); }, 20 * i);
+   });
+  });
+ };
+ $('#description').show();
+ $('#description').animate_Text();
+  */
+  
+})
 
 // MENU
 var $nav = $(".navbar-default");
@@ -101,5 +121,3 @@ $(window).scroll( function(){
 
 });
 // end
-
-
