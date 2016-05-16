@@ -128,11 +128,15 @@ header {
   position: absolute;
   top:200px;
   z-index: 5;
-  h1{text-align: center;  font-family: @font; font-size: 5em; color: @w; border:5px solid; width: 400px; padding: 10px;
-  margin: 0px auto;}
-  p { text-align: center; font-size: 1.2em; color: @w; padding: 20px 300px; margin-top: 50px;
+  #h1 {border:5px solid @w; width: 380px; padding: 5px;  margin: 0px auto;  display: none; height: 135px;}
+  h1{text-align: center;  font-family: @font; font-size: 5em; color: @w; display: none;padding: 0; }
+  #description { opacity: 0;
+    .new{opacity: 0;} .div_opacity{
+   opacity: 1;}}
+  p { text-align: center; font-size: 1.5em; color: @w; padding: 20px 300px; margin-top: 50px;
   }
-  #number { font-size: 2em; font-family: @font;  padding:5px; margin: 0;}
+  .number { font-size: 1.5em; font-family: @font;  text-align: center; font-size: 1.5em; color: @w; padding: 0; margin: 0; opacity: 0; 
+    p{padding: 0; margin: 0;}}
   img {
     width: 100px;
     display: block;
@@ -1167,12 +1171,13 @@ footer {
 
 // MAIN PAGE
       #blue, .image {height: 580px;}
-     #title {
+     #title {f
          top: 70px;
-         h1 {font-size: 3.5em; width: 230px}
+       #h1 {width: 230px; height: 110px}
+         h1 {font-size: 3.5em;  }
          p {margin-top:50px; padding: 10px 30px; font-size: 1.2em;}
          img {width: 100px; }
-       #number {font-size: 1.5em;}
+       .number {font-size: 1.5em;}
        }
 
     #we_are{
