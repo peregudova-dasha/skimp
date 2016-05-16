@@ -104,27 +104,49 @@ header #navigation .navbar .dropdown-menu li a {
   top: 200px;
   z-index: 5;
 }
+#title #h1 {
+  border: 5px solid #fff;
+  width: 380px;
+  padding: 5px;
+  margin: 0px auto;
+  display: none;
+  height: 135px;
+}
 #title h1 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 5em;
   color: #fff;
-  border: 5px solid;
-  width: 400px;
-  padding: 10px;
-  margin: 0px auto;
+  display: none;
+  padding: 0;
+}
+#title #description {
+  opacity: 0;
+}
+#title #description .new {
+  opacity: 0;
+}
+#title #description .div_opacity {
+  opacity: 1;
 }
 #title p {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #fff;
   padding: 20px 300px;
   margin-top: 50px;
 }
-#title #number {
-  font-size: 2em;
+#title .number {
+  font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
-  padding: 5px;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+#title .number p {
+  padding: 0;
   margin: 0;
 }
 #title img {
@@ -1078,9 +1100,12 @@ footer .right p {
   #title {
     top: 70px;
   }
+  #title #h1 {
+    width: 230px;
+    height: 110px;
+  }
   #title h1 {
     font-size: 3.5em;
-    width: 230px;
   }
   #title p {
     margin-top: 50px;
@@ -1090,7 +1115,7 @@ footer .right p {
   #title img {
     width: 100px;
   }
-  #title #number {
+  #title .number {
     font-size: 1.5em;
   }
   #we_are {
