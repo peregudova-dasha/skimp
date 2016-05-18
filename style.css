@@ -518,6 +518,9 @@ header #navigation .navbar .dropdown-menu li a {
   margin: 0px auto;
   width: 350px;
 }
+#scheme .elements {
+  height: 300px;
+}
 #scheme .elements img {
   margin: 50px auto;
   display: block;
@@ -525,6 +528,9 @@ header #navigation .navbar .dropdown-menu li a {
 #scheme .elements p {
   text-align: center;
   padding: 10px;
+}
+#scheme .element {
+  display: none;
 }
 #work {
   margin-top: 100px;
