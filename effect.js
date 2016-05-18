@@ -33,6 +33,7 @@ var $nav = $(".navbar-default");
 
 //end
 
+
 // PORTFOLIO main page
 
 //Обработка клика на стрелку вправо
@@ -121,3 +122,21 @@ $(window).scroll( function(){
 
 });
 // end
+
+
+//SCHEME
+var $1 = $(".element1");
+var $2 = $(".element2");
+var $3 = $(".element3");
+var $4 = $(".element4");
+
+
+ $(window).scroll(function(){
+   if ( $(this).scrollTop() > 2000){
+     $1.show('slide',1000);
+        $2.delay(500).show('slide',1000);
+        $3.delay(1000).show('slide',1000);
+        $4.delay(1500).show('slide',1000);
+   }
+ })
+//end
