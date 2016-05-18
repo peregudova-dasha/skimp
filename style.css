@@ -505,6 +505,27 @@ header #navigation .navbar .dropdown-menu li a {
 #priorities .container .try {
   margin: 0 100px;
 }
+#scheme {
+  background: #76bbe3;
+  padding: 100px 0 80px 0;
+}
+#scheme h2 {
+  color: #2d3640;
+  display: block;
+  padding: 20px;
+  border-top: 3px solid #2d3640;
+  border-bottom: 3px solid #2d3640;
+  margin: 0px auto;
+  width: 350px;
+}
+#scheme .elements img {
+  margin: 50px auto;
+  display: block;
+}
+#scheme .elements p {
+  text-align: center;
+  padding: 10px;
+}
 #work {
   margin-top: 100px;
 }
