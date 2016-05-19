@@ -519,7 +519,7 @@ header #navigation .navbar .dropdown-menu li a {
   width: 350px;
 }
 #scheme .elements {
-  height: 300px;
+  height: 350px;
 }
 #scheme .elements img {
   margin: 50px auto;
@@ -1279,6 +1279,10 @@ footer .right p {
   }
   .tab_content .img {
     display: none;
+  }
+  #scheme h2 {
+    width: 230px;
+    font-size: 1.8em;
   }
   #feedback {
     margin: 20px 0px;
