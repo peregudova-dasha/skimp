@@ -142,6 +142,9 @@ var $0 =  $(".element");
  })
  
  $0.mouseenter(function(){
-   $(this).find("img").animate({"opacity": "0.7"}, 500)
- })
+   $(this).find("img").animate({"opacity": "0.6"}, 500)
+ });
+  $0.mouseleave(function(){
+   $(this).find("img").animate({"opacity": "1"}, 500)
+ });
 //end
