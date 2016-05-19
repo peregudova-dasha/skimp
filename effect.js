@@ -129,6 +129,7 @@ var $1 = $(".element1");
 var $2 = $(".element2");
 var $3 = $(".element3");
 var $4 = $(".element4");
+var $0 =  $(".element");
 
 
  $(window).scroll(function(){
@@ -138,5 +139,9 @@ var $4 = $(".element4");
         $3.delay(1000).show('slide',1000);
         $4.delay(1500).show('slide',1000);
    }
+ })
+ 
+ $0.mouseenter(function(){
+   $(this).find("img").animate({"opacity": "0.7"}, 500)
  })
 //end
