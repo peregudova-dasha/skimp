@@ -1280,6 +1280,9 @@ footer .right p {
   .tab_content .img {
     display: none;
   }
+  
+   #scheme img {margin-bottom: 0;}
+  
   #scheme h2 {
     width: 230px;
     font-size: 1.8em;
