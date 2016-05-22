@@ -1,3 +1,6 @@
+/* ---------------------- */
+/* STYLES TO ALL ELEMENTS */
+/* ---------------------- */
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -21,7 +24,7 @@ p {
   background: #1e6287;
 }
 .end3 {
-  background: #fff;
+  background: #ffffff;
 }
 .button {
   height: 50px;
@@ -43,6 +46,8 @@ p {
 .button a:hover {
   text-decoration: none;
 }
+/* -------------------- */
+/* -------------------- */
 header #navigation {
   position: absolute;
   top: 660px;
@@ -59,13 +64,13 @@ header #navigation .navbar {
 }
 header #navigation .navbar a:hover {
   background: #1e6287;
-  color: #fff;
+  color: #ffffff;
 }
 header #navigation .navbar ul {
   font-size: 1.25em;
 }
 header #navigation .navbar ul li a {
-  color: #fff;
+  color: #ffffff;
 }
 header #navigation .navbar ul li:active {
   background: #20262d;
@@ -105,7 +110,7 @@ header #navigation .navbar .dropdown-menu li a {
   z-index: 5;
 }
 #title #h1 {
-  border: 5px solid #fff;
+  border: 5px solid #ffffff;
   width: 380px;
   padding: 5px;
   margin: 0px auto;
@@ -116,7 +121,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 5em;
-  color: #fff;
+  color: #ffffff;
   display: none;
   padding: 0;
 }
@@ -132,15 +137,15 @@ header #navigation .navbar .dropdown-menu li a {
 #title p {
   text-align: center;
   font-size: 1.5em;
-  color: #fff;
+  color: #ffffff;
   padding: 20px 300px;
   margin-top: 50px;
 }
 #title .number {
-  font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  color: #fff;
+  font-size: 1.5em;
+  color: #ffffff;
   padding: 0;
   margin: 0;
   opacity: 0;
@@ -159,15 +164,15 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #we_are {
   background: #76bbe3;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding-top: 80px;
 }
 #we_are h2 {
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 0px auto;
   width: 350px;
 }
@@ -178,11 +183,11 @@ header #navigation .navbar .dropdown-menu li a {
   padding: 30px 100px 0 100px;
 }
 #services {
-  background: #fff;
+  background: #ffffff;
   padding-top: 50px;
 }
 #services .serv_h2 {
-  background: #fff;
+  background: #ffffff;
   color: #2d3640;
   padding: 70px;
 }
@@ -195,7 +200,7 @@ header #navigation .navbar .dropdown-menu li a {
   width: 330px;
 }
 #services .container {
-  background: #fff;
+  background: #ffffff;
 }
 #services .container .service {
   margin: 20px 0;
@@ -225,7 +230,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   margin: 0px auto;
   font-size: 1.8em;
-  color: #fff;
+  color: #ffffff;
   opacity: 1;
 }
 #services .container .serv1 {
@@ -260,39 +265,48 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #works {
   background: #2d3640;
-  color: #fff;
+  color: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
+  /*********** BUTTONS ***********/
 }
 #works h2 {
   font-size: 2.5em;
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 70px auto 0px auto;
   width: 550px;
 }
 #works .carousel {
   max-width: 980px;
+  /* ширина всего блока */
   margin: 50px auto;
   width: 100%;
 }
 #works .carousel-wrapper {
   margin: 10px 30px;
+  /* отступы для стрелок */
   overflow: hidden;
+  /* скрываем содержимое, выходящее за рамки основной области */
   position: relative;
 }
 #works .carousel-items {
   width: 10000px;
+  /* устанавливаем большую ширину для набора элементов */
   position: relative;
+  /* позиционируем блок относительно основной области карусели */
 }
 #works .carousel-block {
   float: left;
+  /* выстраиваем все элементы карусели в ряд */
   width: 220px;
+  /* задаём ширину каждого элемента */
   height: 100%;
   overflow: hidden;
   padding: 20px;
+  /* делаем оступы, чтобы элементы не сливались */
 }
 #works .carousel-block .work {
   display: block;
@@ -305,23 +319,23 @@ header #navigation .navbar .dropdown-menu li a {
   width: 100%;
 }
 #works .carousel-block .work1 {
-  background: url("img/portfolio/1.jpeg") 50% 50%;
+  background: url("img/portfolio/1.jpg") 50% 50%;
   background-size: cover;
 }
 #works .carousel-block .work2 {
-  background: url("img/portfolio/2.jpeg") 50% 50%;
+  background: url("img/portfolio/1.2.jpg") 50% 50%;
   background-size: cover;
 }
 #works .carousel-block .work3 {
-  background: url("img/portfolio/3.jpeg") 50% 50%;
+  background: url("img/portfolio/1.3.jpg") 50% 50%;
   background-size: cover;
 }
 #works .carousel-block .work4 {
-  background: url("img/portfolio/4.jpeg") 50% 50%;
+  background: url("img/portfolio/4.jpg") 50% 50%;
   background-size: cover;
 }
 #works .carousel-block .work5 {
-  background: url("img/portfolio/5.jpeg") 50% 50%;
+  background: url("img/portfolio/5.jpg") 50% 50%;
   background-size: cover;
 }
 #works .carousel-button-left a,
@@ -390,7 +404,7 @@ header #navigation .navbar .dropdown-menu li a {
   text-align: center;
   margin: 0px auto;
   font-size: 1.75em;
-  color: #fff;
+  color: #ffffff;
   opacity: 1;
   font-weight: 400;
 }
@@ -419,7 +433,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #services_page .links {
   border-left: 2px solid #1e6287;
-  padding: 10px;
+  padding: 10px ;
 }
 #services_page .links a {
   display: inline-block;
@@ -442,26 +456,86 @@ header #navigation .navbar .dropdown-menu li a {
   border-bottom: 3px solid #2d3640;
   margin: 0px auto 70px auto;
   width: 400px;
+  text-align: center;
 }
-#about .logo img {
-  width: 60%;
-  margin-left: 25%;
+#about .logo_s .f {
+  display: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+#about .logo_s .f1 {
+  top: 8px;
+  left: 250px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid #2d3640;
+}
+#about .logo_s .f2 {
+  top: 8px;
+  left: 215px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid #1e6287;
+}
+#about .logo_s .f3 {
+  top: 8px;
+  left: 180px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid #76bbe3;
+}
+#about .logo_s .f4 {
+  top: 68px;
+  left: 180px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid #76bbe3;
+}
+#about .logo_s .f5 {
+  top: 67.1px;
+  left: 209.5px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid #76bbe3;
+}
+#about .logo_s .f6 {
+  top: 127.1px;
+  left: 209.5px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid #76bbe3;
+}
+#about .logo_s .f7 {
+  top: 126px;
+  left: 174px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid #2d3640;
+}
+#about .logo_s .f8 {
+  top: 126px;
+  left: 139px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid #1e6287;
 }
 #about .logo h2 {
   font-size: 2.4em;
   font-family: "Poiret One", serif;
   font-weight: bold;
-  color: #e8be00;
+  color: #2d3640;
+  margin-top: 250px;
 }
 #about p {
   padding-left: 50px;
 }
 #priorities {
-  background: #fff;
+  background: #ffffff;
   margin-top: 100px;
 }
 #priorities .container:first-child {
-  border-top: 1px solid #fcce00;
+  border-top: 1px solid #2d3640;
 }
 #priorities h2 {
   font-size: 2.5em;
@@ -545,6 +619,9 @@ header #navigation .navbar .dropdown-menu li a {
   width: 400px;
   text-align: center;
 }
+#work h2 {
+  margin-bottom: 50px;
+}
 #work .our_works li {
   display: inline-block;
   background: #1e6287;
@@ -564,7 +641,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 #work .our_works .tab-current {
   background: #76bbe3;
-  color: #fff;
+  color: #ffffff;
   padding: 25px 3% 15px 3%;
 }
 #work .our_works .cont .t2,
@@ -576,15 +653,35 @@ header #navigation .navbar .dropdown-menu li a {
 #work .our_works .cont .content {
   padding-top: 50px;
   padding-bottom: 50px;
-  border-top: 1px solid #e8be00;
+  border-top: 1px solid #1e6287;
 }
-#work .our_works .cont .content1 img {
+#work .our_works .cont .content img {
   width: 100%;
+}
+#work .our_works .cont .content .container_img {
+  margin-bottom: 30px;
+}
+#work .our_works .cont .content .about_item {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: #20262d;
+  opacity: 0.8;
+}
+#work .our_works .cont .content .about_item img {
+  width: 100%;
+}
+#work .our_works .cont .content .about_item p {
+  font-size: 1.2em;
+  padding: 20px;
+  color: #ffffff;
 }
 .head {
   padding: 100px 100px 70px 100px;
   background: #76bbe3;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .head p {
@@ -638,7 +735,7 @@ header #navigation .navbar .dropdown-menu li a {
   font-size: 2.3em;
   text-align: center;
   margin-bottom: 40px;
-  color: #1C1C1C;
+  color: #2d3640;
 }
 .tab_content p {
   margin: 50px;
@@ -659,7 +756,7 @@ header #navigation .navbar .dropdown-menu li a {
 }
 .tab_content .types ul {
   list-style-image: url("img/list_style4.png");
-  margin: 0 20px;
+  margin: 0 20px ;
 }
 .tab_content .types ul li {
   font-size: 1.3em;
@@ -997,13 +1094,13 @@ header #navigation .navbar .dropdown-menu li a {
   font-size: 2.5em;
   display: block;
   padding: 20px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   margin: 70px auto 0px auto;
   width: 400px;
 }
 #feedback .container {
-  color: #fff;
+  color: #ffffff;
 }
 #feedback .container h2 {
   margin-top: 50px;
@@ -1109,6 +1206,8 @@ footer .right p {
   text-align: right;
   margin-top: 80px;
 }
+/* Media queries */
+/*PHONE*/
 @media all and (max-width: 767px) {
   .container {
     max-width: 730px;
@@ -1186,9 +1285,52 @@ footer .right p {
   #services_page .service p {
     font-size: 1.3em;
   }
-  #about .logo img {
-    width: 30%;
-    margin-left: 35%;
+  #about h1 {
+    font-size: 1.8em;
+    width: 230px;
+  }
+  #about h2 {
+    font-size: 1.5em;
+    width: 230px;
+  }
+  #about p {
+    padding: 0;
+    font-size: 1em;
+  }
+  #about .logo_s .f1 {
+    left: 150px;
+  }
+  #about .logo_s .f2 {
+    left: 115px;
+  }
+  #about .logo_s .f3 {
+    left: 80px;
+  }
+  #about .logo_s .f4 {
+    left: 80px;
+  }
+  #about .logo_s .f5 {
+    left: 109.5px;
+  }
+  #about .logo_s .f6 {
+    left: 109.5px;
+  }
+  #about .logo_s .f7 {
+    left: 74px;
+  }
+  #about .logo_s .f8 {
+    left: 39px;
+  }
+  #priorities .container {
+    padding: 0;
+  }
+  #priorities .container .col-xs-12 {
+    padding: 10px;
+    margin: 0;
+  }
+  #priorities h2 {
+    font-size: 1.5em;
+    width: 230px;
   }
   #priorities .desc p {
     padding: 30px 10px 0px 10px;
@@ -1201,6 +1343,9 @@ footer .right p {
   }
   #priorities .ic3 {
     background-size: 15%;
+  }
+  #works h1 {
+    font-size: 1.8em;
   }
   #works .our_works .tabs {
     padding: 5%;
@@ -1280,9 +1425,9 @@ footer .right p {
   .tab_content .img {
     display: none;
   }
-  
-   #scheme img {margin-bottom: 0;}
-  
+  #scheme img {
+    margin-bottom: 0;
+  }
   #scheme h2 {
     width: 230px;
     font-size: 1.8em;
@@ -1311,7 +1456,11 @@ footer .right p {
     text-align: center;
     padding: 0;
   }
+  .head h1 {
+    font-size: 1.8em;
+  }
 }
+/*TABLETS*/
 @media all and (min-width: 768px) and (max-width: 991px) {
   * {
     margin: 0;
@@ -1362,11 +1511,13 @@ footer .right p {
 #feedback p {
   text-align: center;
 }
+/*MEDIUM DEVICE*/
 @media all and (min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 95%;
   }
 }
+/*LARGE DEVICE*/
 @media all and (min-width: 1201px) {
   .container {
     width: 95%;

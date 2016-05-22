@@ -1,10 +1,5 @@
-@y: #fcce00;
-@dy: #e8be00;
-@ddy: #A0850C;
 @b: #171400;
 @w: #fff;
-@g: #2E2E2E;
-@dg: #1C1C1C;
 @h2: 2.5em;
 @p: 1.35em;
 
@@ -28,41 +23,41 @@ h2 {font-size: @h2;
   text-align: center;
 
 }
-  p { font-size: @p; }
+p { font-size: @p; }
 
-  .end {
-    margin: 50px 30px 70px 30px;
-    width: 20px;
-    height: 20px;
-    display: inline-block;  }
-    .end1 {background: @db;}
-    .end2 {background: @mb;}
-    .end3 {background: @w;}
+.end {
+  margin: 50px 30px 70px 30px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;  }
+  .end1 {background: @db;}
+  .end2 {background: @mb;}
+  .end3 {background: @w;}
 
   .button {
-      height: 50px; 
-      width: 200px;
-      background: none;
+    height: 50px; 
+    width: 200px;
+    background: none;
     border: 2px solid;
     font-family: @font;
-      margin: 70px auto;
-      p {
-        padding: 0;
-        text-align: center;
-        padding-top: 5px;
-        font-size: 1.6em;
-      }
-      a {color: inherit;}
-      a:hover {text-decoration: none;}
+    margin: 70px auto;
+    p {
+      padding: 0;
+      text-align: center;
+      padding-top: 5px;
+      font-size: 1.6em;
     }
+    a {color: inherit;}
+    a:hover {text-decoration: none;}
+  }
 
-    /* -------------------- */
-    /* -------------------- */
+  /* -------------------- */
+  /* -------------------- */
 
 
 
-header {
- 
+  header {
+
     #navigation {
       position: absolute; 
       top: 660px;
@@ -95,8 +90,8 @@ header {
            a {font-size: 0.7em;}
          }
        }
-      }
-      
+     }
+
 
    }  
 
@@ -105,22 +100,22 @@ header {
 
 // MAIN PAGE 
 
- 
+
 #blue {
-   position: absolute;
-   height: 660px;
-   width: 100%;
-  background: @db;
-   opacity:0.5;
-  top: 0px;
+ position: absolute;
+ height: 660px;
+ width: 100%;
+ background: @db;
+ opacity:0.5;
+ top: 0px;
 }
 
 .image {
-   position: relative;
-   width: 100%;
-   background: url("https://static.pexels.com/photos/6664/magazines-stack-reading-magazine.jpg") no-repeat 50% 0% ;
-  background-size:cover;
-  height: 660px;
+ position: relative;
+ width: 100%;
+ background: url("https://static.pexels.com/photos/6664/magazines-stack-reading-magazine.jpg") no-repeat 50% 0% ;
+ background-size:cover;
+ height: 660px;
 
 }
 
@@ -132,178 +127,178 @@ header {
   h1{text-align: center;  font-family: @font; font-size: 5em; color: @w; display: none;padding: 0; }
   #description { opacity: 0;
     .new{opacity: 0;} .div_opacity{
-   opacity: 1;}}
-  p { text-align: center; font-size: 1.5em; color: @w; padding: 20px 300px; margin-top: 50px;
-  }
-  .number { font-size: 1.5em; font-family: @font;  text-align: center; font-size: 1.5em; color: @w; padding: 0; margin: 0; opacity: 0; 
-    p{padding: 0; margin: 0;}}
-  img {
-    width: 100px;
-    display: block;
-    position: relative; top: 0; left: 0; margin: 0px auto;
-  }
-}
+     opacity: 1;}}
+     p { text-align: center; font-size: 1.5em; color: @w; padding: 20px 300px; margin-top: 50px;
+     }
+     .number { font-size: 1.5em; font-family: @font;  text-align: center; font-size: 1.5em; color: @w; padding: 0; margin: 0; opacity: 0; 
+      p{padding: 0; margin: 0;}}
+      img {
+        width: 100px;
+        display: block;
+        position: relative; top: 0; left: 0; margin: 0px auto;
+      }
+    }
 
-#we_are {
- background: @lb;
-color: @w;
- text-align: center;
-  padding-top: 80px;
-  h2 {
-    display: block;
-    padding: 20px;
+    #we_are {
+     background: @lb;
+     color: @w;
+     text-align: center;
+     padding-top: 80px;
+     h2 {
+      display: block;
+      padding: 20px;
       border-top: 3px solid @w;
       border-bottom: 3px solid @w;
       margin: 0px auto;
       width: 350px;
+    }
+    .container {  padding: 100px 0 120px 0;}
+    p {padding: 30px 100px 0 100px}
   }
- .container {  padding: 100px 0 120px 0;}
-  p {padding: 30px 100px 0 100px}
-}
 
-#services {
-  background: @w;
-  padding-top: 50px;
-  
-  .serv_h2 {
+  #services {
     background: @w;
-    color: @db;
-    padding:  70px;
-    h2 {padding: 20px;
-      display: block; 
-      border-top: 3px solid @db;
-      border-bottom: 3px solid @db;
-      margin: 0px auto;
-      width: 330px;}
-  }
-  .container {
-    background: @w;
-    
-    .service {
-      margin: 20px 0;
-      width: 100%;
-      height: 250px;
-      padding-top: 10px;
-      opacity: 0;
-      a:hover {text-decoration: none;}
-      .s_icon {
-        width: 85%;
-        height: 175px;
-        background: @lb;
-        margin: 30px auto;
-        opacity: 0.8;
-        padding-top: 15px;
-      }
-      img {
-        height: 115px;
-        opacity: 1;
+    padding-top: 50px;
+
+    .serv_h2 {
+      background: @w;
+      color: @db;
+      padding:  70px;
+      h2 {padding: 20px;
+        display: block; 
+        border-top: 3px solid @db;
+        border-bottom: 3px solid @db;
         margin: 0px auto;
-        display:block;
+        width: 330px;}
       }
-      p {
-        text-align:center;
-        margin: 0px auto; 
-        font-size: 1.8em;
-        color: @w;
-        opacity: 1;
+      .container {
+        background: @w;
+
+        .service {
+          margin: 20px 0;
+          width: 100%;
+          height: 250px;
+          padding-top: 10px;
+          opacity: 0;
+          a:hover {text-decoration: none;}
+          .s_icon {
+            width: 85%;
+            height: 175px;
+            background: @lb;
+            margin: 30px auto;
+            opacity: 0.8;
+            padding-top: 15px;
+          }
+          img {
+            height: 115px;
+            opacity: 1;
+            margin: 0px auto;
+            display:block;
+          }
+          p {
+            text-align:center;
+            margin: 0px auto; 
+            font-size: 1.8em;
+            color: @w;
+            opacity: 1;
+          }
+        }
+
+        .serv1{
+          background: url("img/serv/1.jpg") 20% 20%;
+          background-size: cover;
+        }
+        .serv2{
+          background: url("img/serv/2.png") 50% 50%;
+          background-size: cover;
+        }
+        .serv3{
+          background: url("img/serv/3.jpg") 50% 50%;
+          background-size: cover;
+        }
+        .serv4{
+          background: url("img/serv/5.jpg") 50% 50%;
+          background-size: cover;
+        }
+
+        .types  {
+          display:none;
+          position: absolute;
+          width: 93%;
+          height: 50px;
+          left:15px;
+          p {
+            padding-top: 10px;
+            font-size: 1.3em; 
+            font-weight: 400;
+
+            font-family: @font;
+            color: @mb;
+          }
+        }
+
       }
     }
 
-    .serv1{
-      background: url("img/serv/1.jpg") 20% 20%;
-      background-size: cover;
-    }
-    .serv2{
-      background: url("img/serv/2.png") 50% 50%;
-      background-size: cover;
-    }
-    .serv3{
-      background: url("img/serv/3.jpg") 50% 50%;
-      background-size: cover;
-    }
-    .serv4{
-      background: url("img/serv/5.jpg") 50% 50%;
-      background-size: cover;
-    }
-
-    .types  {
-      display:none;
-      position: absolute;
-      width: 93%;
-      height: 50px;
-      left:15px;
-      p {
-        padding-top: 10px;
-        font-size: 1.3em; 
-        font-weight: 400;
-        
-        font-family: @font;
-        color: @mb;
-      }
-    }
-    
-  }
-}
-
-#works {
- background:@db; color:@w;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  h2 {
-    font-size:2.5em;
-    display: block;
-    padding: 20px;
+    #works {
+     background:@db; color:@w;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     h2 {
+      font-size:2.5em;
+      display: block;
+      padding: 20px;
       border-top: 3px solid @w;
       border-bottom: 3px solid @w;
       margin: 70px auto 0px auto;
       width: 550px;
-  }
-  .carousel  {
-   max-width: 980px; /* ширина всего блока */
-   margin: 50px auto;
-   width:100%;
- }
- .carousel-wrapper {
-   margin: 10px 30px; /* отступы для стрелок */
-   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
-   position:relative;
- }
- .carousel-items {
-   width: 10000px; /* устанавливаем большую ширину для набора элементов */
-   position: relative; /* позиционируем блок относительно основной области карусели */
+    }
+    .carousel  {
+     max-width: 980px; /* ширина всего блока */
+     margin: 50px auto;
+     width:100%;
+   }
+   .carousel-wrapper {
+     margin: 10px 30px; /* отступы для стрелок */
+     overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+     position:relative;
+   }
+   .carousel-items {
+     width: 10000px; /* устанавливаем большую ширину для набора элементов */
+     position: relative; /* позиционируем блок относительно основной области карусели */
+
+   }
+   .carousel-block {
+     float: left; /* выстраиваем все элементы карусели в ряд */
+     width: 220px; /* задаём ширину каждого элемента */
+     height: 100%;
+     overflow: hidden;
+     padding: 20px; /* делаем оступы, чтобы элементы не сливались */
+
+     .work {
+      display: block;
+
+      p {font-size: 1em;}
+    }
+    .image { height: 200px; width: 100%;}
+    .work1 {
+     background: url("img/portfolio/1.jpg") 50% 50%;
+     background-size: cover;
+   }
+   .work2 { background: url("img/portfolio/1.2.jpg") 50% 50%;
+   background-size: cover; }
+   .work3 { background: url("img/portfolio/1.3.jpg") 50% 50%;
+   background-size: cover; }
+   .work4 { background: url("img/portfolio/4.jpg") 50% 50%;
+   background-size: cover; }
+   .work5 { background: url("img/portfolio/5.jpg") 50% 50%;
+   background-size: cover; }
 
  }
- .carousel-block {
-   float: left; /* выстраиваем все элементы карусели в ряд */
-   width: 220px; /* задаём ширину каждого элемента */
-   height: 100%;
-   overflow: hidden;
-   padding: 20px; /* делаем оступы, чтобы элементы не сливались */
-
-   .work {
-    display: block;
-
-    p {font-size: 1em;}
-  }
-  .image { height: 200px; width: 100%;}
-  .work1 {
-   background: url("img/portfolio/1.jpeg") 50% 50%;
-   background-size: cover;
- }
- .work2 { background: url("img/portfolio/2.jpeg") 50% 50%;
- background-size: cover; }
- .work3 { background: url("img/portfolio/3.jpeg") 50% 50%;
- background-size: cover; }
- .work4 { background: url("img/portfolio/4.jpeg") 50% 50%;
- background-size: cover; }
- .work5 { background: url("img/portfolio/5.jpeg") 50% 50%;
- background-size: cover; }
-
-}
 
 
-/*********** BUTTONS ***********/
-.carousel-button-left, .carousel-button-right{
+ /*********** BUTTONS ***********/
+ .carousel-button-left, .carousel-button-right{
   a {
    width: 50px; 
    height: 50px; 
@@ -329,11 +324,11 @@ color: @w;
    transform: rotate(180deg) ;
  }
 }
-  .button {
-    background: none;
-    border: 2px solid;
-    font-family: @font;
-  }
+.button {
+  background: none;
+  border: 2px solid;
+  font-family: @font;
+}
 }
 
 
@@ -343,79 +338,79 @@ color: @w;
 // SERVICES 
 
 #services_page  {
-    margin: 100px auto;
-    font-family:@font;
+  margin: 100px auto;
+  font-family:@font;
   h1 {font-size:2.5em;
     display: block;
     padding: 20px;
-      border-top: 3px solid @db;
-      border-bottom: 3px solid @db;
+    border-top: 3px solid @db;
+    border-bottom: 3px solid @db;
+    margin: 0px auto;
+    width: 400px;
+    text-align: center;
+  }
+  .service {
+    margin: 50px 0px 0px 0px; 
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+
+    a:hover {text-decoration: none;}
+    .s_icon {
+      width: 85%;
+      height: 145px;
+      background: @lb;
+      margin: 20px auto;
+      opacity: 0.8;
+      padding-top: 15px;
+    }
+    img {
+      height: 75px;
+      opacity: 1;
       margin: 0px auto;
-      width: 400px;
-      text-align: center;
+      display:block;
     }
-    .service {
-      margin: 50px 0px 0px 0px; 
-      width: 100%;
-      height: 200px;
-      padding-top: 10px;
-
-      a:hover {text-decoration: none;}
-      .s_icon {
-        width: 85%;
-        height: 145px;
-        background: @lb;
-        margin: 20px auto;
-        opacity: 0.8;
-         padding-top: 15px;
-      }
-      img {
-          height: 75px;
-          opacity: 1;
-          margin: 0px auto;
-        display:block;
-        }
-      p {
-          text-align:center;
-          margin: 0px auto; 
-          font-size: 1.75em;
-          color: @w;
-           opacity: 1;
-           font-weight: 400;
-        }
+    p {
+      text-align:center;
+      margin: 0px auto; 
+      font-size: 1.75em;
+      color: @w;
+      opacity: 1;
+      font-weight: 400;
     }
+  }
 
-    .serv1{
-      background: url("img/serv/1.jpg") 20% 20%;
-      background-size: cover;
-    }
+  .serv1{
+    background: url("img/serv/1.jpg") 20% 20%;
+    background-size: cover;
+  }
 
-    .serv3{
-      background: url("img/serv/3.jpg") 50% 50%;
-      background-size: cover;
-   }
-    .serv4{
-      background: url("img/serv/4.jpg") 50% 50%;
-      background-size: cover;
-   }
-    .serv5{
-      width: 100%;
-      background: url("img/serv/5.jpg") 50% 50%;
-      background-size: cover;
-      .icon10 { width: 85%; }
-   }
+  .serv3{
+    background: url("img/serv/3.jpg") 50% 50%;
+    background-size: cover;
+  }
+  .serv4{
+    background: url("img/serv/4.jpg") 50% 50%;
+    background-size: cover;
+  }
+  .serv5{
+    width: 100%;
+    background: url("img/serv/5.jpg") 50% 50%;
+    background-size: cover;
+    .icon10 { width: 85%; }
+  }
   
-      .text {
-        p {
-          margin-top: 50px;
-        }
-      }
-      .links {
-        border-left: 2px solid @mb;
-        padding: 10px ;
-        a {display: inline-block;color: @db; font-size: 1.3em; padding: 0 30px 8px 0;}
-        a:hover {text-decoration: none; color: @mb;}
-      }
+  .text {
+    p {
+      margin-top: 50px;
+    }
+  }
+  .links {
+    border-left: 2px solid @mb;
+    padding: 10px ;
+    a {display: inline-block;color: @db; font-size: 1.3em; padding: 0 30px 8px 0;}
+    a:hover {text-decoration: none; color: @mb;}
+  }
 }
 
 // SERVICES END
@@ -427,72 +422,147 @@ color: @w;
   h1 { font-size:2.5em;
     display: block;
     padding: 20px;
-      border-top: 3px solid @db;
-      border-bottom: 3px solid @db;
-      margin: 0px auto 70px auto;
-      width: 400px; }
-  
-    .logo {
-    img {width: 60%; margin-left: 25%;}
-    h2 {font-size: 2.4em;font-family: @font2; font-weight: bold; color: @dy;}
-  }
-  p { padding-left: 50px}
+    border-top: 3px solid @db;
+    border-bottom: 3px solid @db;
+    margin: 0px auto 70px auto;
+    width: 400px; 
+    text-align: center;}
+
+.logo_s {
+  .f {
+  display: none;
+ position: absolute;
+width: 0;
+height: 0;
 }
 
-#priorities {
-  .container:first-child {border-top: 1px solid @y;}
+ .f1 {
+  top: 8px;
+  left: 250px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid @db;
+}
 
-  background: @w;
-  margin-top: 100px;
-  h2 {font-size:2.5em;
-    display: block;
-    padding: 20px;
+.f2 {
+    top: 8px;
+  left: 215px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid @mb;
+}
+
+.f3 {
+    top: 8px;
+  left: 180px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid @lb;
+}
+
+.f4 {
+  top: 68px;
+  left: 180px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid @lb;
+}
+
+.f5 {
+  top: 67.1px;
+  left: 209.5px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid @lb;
+}
+
+.f6 {
+  top: 127.1px;
+  left: 209.5px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid @lb;
+}
+
+ .f7 {
+   top: 126px;
+  left: 174px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid @db;
+}
+
+.f8 {
+  top: 126px;
+  left: 139px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid @mb;
+}
+
+}
+
+    .logo {
+    
+      h2 {font-size: 2.4em;font-family: @font2; font-weight: bold; color: @db; margin-top: 250px;}
+    }
+    p { padding-left: 50px}
+  }
+
+  #priorities {
+    .container:first-child {border-top: 1px solid @db;}
+
+    background: @w;
+    margin-top: 100px;
+    h2 {font-size:2.5em;
+      display: block;
+      padding: 20px;
       border-top: 3px solid @db;
       border-bottom: 3px solid @db;
       margin: 70px auto 0px auto;
       width: 400px;}
-  
-    
-    
-    .pr {height: 95px;
-      margin: 35px 0;
+
+
+
+      .pr {height: 95px;
+        margin: 35px 0;
+      }
+
+      .icon {
+        height: 100px;
+        margin: 70px auto 20px auto;
+      }
+      .ic1 {
+        background: url("img/pr1.png") no-repeat 50% 50%;
+        background-size: contain;
+      }
+      .ic2 {
+        background: url("img/pr2.png") no-repeat 50% 50%;
+        background-size: contain;
+      }
+      .ic3 {
+        background: url("img/pr3.png") no-repeat 50% 50%;
+        background-size: contain;
+      }
+
+      .desc {
+       text-align: center;
+       h3 {margin: 0px;}
+       p {
+        font-size: 1.2em;
+        padding: 25px 5px 100px 5px;
+
+      }
+
     }
 
-  .icon {
-    height: 100px;
-    margin: 70px auto 20px auto;
- }
-    .ic1 {
-      background: url("img/pr1.png") no-repeat 50% 50%;
-      background-size: contain;
-     }
-    .ic2 {
-      background: url("img/pr2.png") no-repeat 50% 50%;
-       background-size: contain;
-     }
-    .ic3 {
-      background: url("img/pr3.png") no-repeat 50% 50%;
-       background-size: contain;
-     }
-  
-   .desc {
-     text-align: center;
-    h3 {margin: 0px;}
-    p {
-      font-size: 1.2em;
-      padding: 25px 5px 100px 5px;
-      
-    }
 
+    .container  {
+      .try {
+        margin: 0 100px;
+      }
+    }
   }
-
-
-  .container  {
-    .try {
-      margin: 0 100px;
-    }
-  }
-}
 
 // ABOUT US END
 
@@ -502,24 +572,24 @@ color: @w;
 #scheme {
   background: @lb;
   padding: 100px 0 80px 0;
-    
+
   h2 {
     color: @db;
     display: block;
     padding: 20px;
-      border-top: 3px solid @db;
-      border-bottom: 3px solid @db;
-      margin: 0px auto;
-      width: 350px;
+    border-top: 3px solid @db;
+    border-bottom: 3px solid @db;
+    margin: 0px auto;
+    width: 350px;
   }
   .elements {
     height: 350px;
-  img {margin: 50px auto; display: block; }
-  
-  p {
-    text-align: center;
-    padding: 10px;
-  }
+    img {margin: 50px auto; display: block; }
+
+    p {
+      text-align: center;
+      padding: 10px;
+    }
   }
   
   .element {display:none;}
@@ -531,57 +601,77 @@ color: @w;
 // PORTFOLIO
 
 #work {
-   margin-top: 100px;
+ margin-top: 100px;
 
    h1 {font-size:2em;
-    display: block;
-    padding: 20px;
-      border-top: 3px solid @db;
-      border-bottom: 3px solid @db;
-      margin: 50px auto 80px auto;
-      width: 400px;
-      text-align: center;}
-    .our_works {
-       
-        li {
-            display: inline-block;
-            background: @mb;
-            padding: 15px 20px;
-            margin-bottom: -10px;
-            border-radius: 10px 10px 0 0;
-            a {
-              color: @ddb;
-              font-size: 1.4em;
-            }
-            a:hover {
-                text-decoration: none;
-                
-              }
-          }
-        li:hover {background: @lb;}
-        .tab-current {
-          background:@lb;
-          color: @w;
-          padding: 25px 3% 15px 3%;
-        
+  display: block;
+  padding: 20px;
+  border-top: 3px solid @db;
+  border-bottom: 3px solid @db;
+  margin: 50px auto 80px auto;
+  width: 400px;
+  text-align: center;}
+
+  h2 {margin-bottom: 50px}
+
+  .our_works {
+
+    li {
+      display: inline-block;
+      background: @mb;
+      padding: 15px 20px;
+      margin-bottom: -10px;
+      border-radius: 10px 10px 0 0;
+      a {
+        color: @ddb;
+        font-size: 1.4em;
+      }
+      a:hover {
+        text-decoration: none;
+
+      }
+    }
+    li:hover {background: @lb;}
+    .tab-current {
+      background:@lb;
+      color: @w;
+      padding: 25px 3% 15px 3%;
+
+    }
+
+    .cont {
+      .t2,.t3,.t4, .t5 {display: none}
+      .content {
+        padding-top:50px;
+        padding-bottom:50px;
+        border-top: 1px solid @mb;
+
+        img {
+          width: 100%;
+         
         }
-        
-        .cont {
-          .t2,.t3,.t4, .t5 {display: none}
-          .content {
-            padding-top:50px;
-            padding-bottom:50px;
-            border-top: 1px solid @dy;
-         }
-          
-          .content1 {
-            img {
-              width: 100%;
-            }
-          }
-          
-        }
-      }  
+
+.container_img {
+  margin-bottom: 30px;
+}
+
+         .about_item {
+          display: none;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height:100%;
+    background: @ddb;
+    opacity: 0.8;
+    img {width:100%;}
+    p {font-size: 1.2em; padding: 20px; color: @w;}
+  }
+      }
+
+    }
+  } 
+
+
 }
 //PORTFLIO END
 
@@ -599,57 +689,57 @@ color: @w;
 .tab_content {
   margin: 100px auto 50px auto;
   
-   aside{
-     
-     ul {
-      list-style: none;
-     
-      padding: 0;
-      li {
-        display: block;
-        font-size: 1.5em;
-        padding: 10px;
-        background: @mb;
-        margin: 5px 0 5px 10px;
-        border-radius: 10px 0 0 10px;
-        a {color: @ddb; }
-        a:hover { text-decoration: none; color: @db}
-      }
-      li:hover {
-         background: @lb;
-       }
-       .tab-current {
-         background: @lb;
-         padding: 20px;
-         margin-left: 0px;
-       }
-    }
-  }
-  .border { border-left: 1px solid @db;}
-  .content {
-    height: 800px;
-    .t2,.t3,.t4, .t5, .t6, .t7 {display: none}
-    h3 { font-size: 2.3em; text-align: center; margin-bottom: 40px; color:@dg;}
-  }
-  p {margin: 50px; }
-  
-  .img {
-    margin-top:100px;
-    
-    .i {
-      width: 22%;
-      height: 200px;
+  aside{
 
-      display: inline-block;
-      margin: 0 5px;
+   ul {
+    list-style: none;
+
+    padding: 0;
+    li {
+      display: block;
+      font-size: 1.5em;
+      padding: 10px;
+      background: @mb;
+      margin: 5px 0 5px 10px;
+      border-radius: 10px 0 0 10px;
+      a {color: @ddb; }
+      a:hover { text-decoration: none; color: @db}
     }
+    li:hover {
+     background: @lb;
+   }
+   .tab-current {
+     background: @lb;
+     padding: 20px;
+     margin-left: 0px;
+   }
+ }
+}
+.border { border-left: 1px solid @db;}
+.content {
+  height: 800px;
+  .t2,.t3,.t4, .t5, .t6, .t7 {display: none}
+  h3 { font-size: 2.3em; text-align: center; margin-bottom: 40px; color:@db;}
+}
+p {margin: 50px; }
+
+.img {
+  margin-top:100px;
+
+  .i {
+    width: 22%;
+    height: 200px;
+
+    display: inline-block;
+    margin: 0 5px;
   }
-   .types {
-     h4 {padding: 0 0 20px 40px; font-weight: bold; color: @db; }
-    ul { list-style-image: url("img/list_style4.png"); margin: 0 20px ;
-      li {font-size: 1.3em; margin: 5px;}
-    }
-  }
+}
+.types {
+ h4 {padding: 0 0 20px 40px; font-weight: bold; color: @db; }
+ ul { list-style-image: url("img/list_style4.png"); margin: 0 20px ;
+ li {font-size: 1.3em; margin: 5px;}
+}
+}
 }
 
 
@@ -660,113 +750,113 @@ color: @w;
 // POLYGRAPHY 
 
 #polygraphy {
-  
+
     // notepads
     .img1 {
      background: url("img/polygraphy/note1.jpg") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img2 {
+   }
+   .img2 {
      background: url("img/polygraphy/note2.jpg") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img3 {
+   }
+   .img3 {
      background: url("img/polygraphy/note3.jpg") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img4 {
+   }
+   .img4 {
      background: url("img/polygraphy/note4.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     //booklets
     .img5 {
      background: url("img/polygraphy/booklet1.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img6 {
+     background-size: contain;
+   }
+   .img6 {
      background: url("img/polygraphy/booklet2.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img7 {
+     background-size: contain;
+   }
+   .img7 {
      background: url("img/polygraphy/booklet3.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img8 {
+     background-size: contain;
+   }
+   .img8 {
      background: url("img/polygraphy/booklet4.png") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     // magazines
     .img9 {
      background: url("img/polygraphy/mag1.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img10 {
+     background-size: contain;
+   }
+   .img10 {
      background: url("img/polygraphy/mag2.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img11 {
+     background-size: contain;
+   }
+   .img11 {
      background: url("img/polygraphy/mag3.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img12 {
+     background-size: contain;
+   }
+   .img12 {
      background: url("img/polygraphy/mag4.jpeg") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     //calendars
     .img13 {
      background: url("img/polygraphy/calend1.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img14 {
+     background-size: cover;
+   }
+   .img14 {
      background: url("img/polygraphy/calend2.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img15 {
+     background-size: cover;
+   }
+   .img15 {
      background: url("img/polygraphy/calend3.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img16 {
+     background-size: cover;
+   }
+   .img16 {
      background: url("img/polygraphy/calend4.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
+     background-size: cover;
+   }
     //catalogues
     .img17 {
      background: url("img/polygraphy/cat1.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img18 {
+     background-size: cover;
+   }
+   .img18 {
      background: url("img/polygraphy/cat2.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img19 {
+     background-size: cover;
+   }
+   .img19 {
      background: url("img/polygraphy/cat3.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img20 {
+     background-size: cover;
+   }
+   .img20 {
      background: url("img/polygraphy/cat4.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
+     background-size: cover;
+   }
     //posters
     .img21 {
      background: url("img/polygraphy/poster1.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img22 {
+     background-size: cover;
+   }
+   .img22 {
      background: url("img/polygraphy/poster2.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img23 {
+     background-size: cover;
+   }
+   .img23 {
      background: url("img/polygraphy/poster3.png") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img24 {
+     background-size: cover;
+   }
+   .img24 {
      background: url("img/polygraphy/poster4.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    } 
-    
-  
- 
-}
+     background-size: cover;
+   } 
+
+
+
+ }
 
 //POLYGRAPHY END
 
@@ -775,80 +865,80 @@ color: @w;
 
 
 #lfp {
-  
+
     // banners
     .img1 {
      background: url("img/lfp/ban1.jpg") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img2 {
+   }
+   .img2 {
      background: url("img/lfp/ban2.jpg") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img3 {
+   }
+   .img3 {
      background: url("img/lfp/ban3.jpg") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img4 {
+   }
+   .img4 {
      background: url("img/lfp/ban4.jpeg") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     //bords
     .img5 {
      background: url("img/lfp/bord1.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img6 {
+     background-size: contain;
+   }
+   .img6 {
      background: url("img/lfp/bord2.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img7 {
+     background-size: contain;
+   }
+   .img7 {
      background: url("img/lfp/bord3.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img8 {
+     background-size: contain;
+   }
+   .img8 {
      background: url("img/lfp/bord4.jpg") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     // stickers
     .img9 {
      background: url("img/lfp/sticker1.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img10 {
+     background-size: cover;
+   }
+   .img10 {
      background: url("img/lfp/sticker2.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img11 {
+     background-size: cover;
+   }
+   .img11 {
      background: url("img/lfp/sticker3.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img12 {
+     background-size: cover;
+   }
+   .img12 {
      background: url("img/lfp/sticker4.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    
+     background-size: cover;
+   }
+
     //sitylights
     .img17 {
      background: url("img/lfp/sl1.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img18 {
+     background-size: cover;
+   }
+   .img18 {
      background: url("img/lfp/sl2.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img19 {
+     background-size: cover;
+   }
+   .img19 {
      background: url("img/lfp/sl3.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img20 {
+     background-size: cover;
+   }
+   .img20 {
      background: url("img/lfp/sl4.jpg") no-repeat 50% 50%;
-      background-size: cover;
-    }
+     background-size: cover;
+   }
 
-    
- 
-}
+
+
+ }
 
 //LFP END
 
@@ -856,98 +946,98 @@ color: @w;
 //DIGITAL
 
 #digital {
- 
+
     // 
     .img1 {
      background: url("") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img2 {
+   }
+   .img2 {
      background: url("") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img3 {
+   }
+   .img3 {
      background: url("") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img4 {
+   }
+   .img4 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     //
     .img5 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img6 {
+     background-size: contain;
+   }
+   .img6 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img7 {
+     background-size: contain;
+   }
+   .img7 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img8 {
+     background-size: contain;
+   }
+   .img8 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     // 
     .img9 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img10 {
+     background-size: cover;
+   }
+   .img10 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img11 {
+     background-size: cover;
+   }
+   .img11 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img12 {
+     background-size: cover;
+   }
+   .img12 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    
+     background-size: cover;
+   }
+
  // 
-    .img13 {
-     background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img14 {
-     background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img15 {
-     background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img16 {
-     background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
+ .img13 {
+   background: url("") no-repeat 50% 50%;
+   background-size: cover;
+ }
+ .img14 {
+   background: url("") no-repeat 50% 50%;
+   background-size: cover;
+ }
+ .img15 {
+   background: url("") no-repeat 50% 50%;
+   background-size: cover;
+ }
+ .img16 {
+   background: url("") no-repeat 50% 50%;
+   background-size: cover;
+ }
 
     //
     .img17 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img18 {
+     background-size: cover;
+   }
+   .img18 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img19 {
+     background-size: cover;
+   }
+   .img19 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img20 {
+     background-size: cover;
+   }
+   .img20 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
+     background-size: cover;
+   }
 
-    
-  
-}
+
+
+ }
 
 //DIGITAL ENG
 
@@ -956,98 +1046,98 @@ color: @w;
 //CORP.
 
 #corp {
- 
+
     // 
     .img1 {
      background: url("") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img2 {
+   }
+   .img2 {
      background: url("") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img3 {
+   }
+   .img3 {
      background: url("") no-repeat 50% 50%;
      background-size: contain;
-    }
-    .img4 {
+   }
+   .img4 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     //
     .img5 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img6 {
+     background-size: contain;
+   }
+   .img6 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img7 {
+     background-size: contain;
+   }
+   .img7 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
-    .img8 {
+     background-size: contain;
+   }
+   .img8 {
      background: url("") no-repeat 50% 50%;
-      background-size: contain;
-    }
+     background-size: contain;
+   }
     // 
     .img9 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img10 {
+     background-size: cover;
+   }
+   .img10 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img11 {
+     background-size: cover;
+   }
+   .img11 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img12 {
+     background-size: cover;
+   }
+   .img12 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    
+     background-size: cover;
+   }
+
  // 
-    .img13 {
-     background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img14 {
-     background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img15 {
-     background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img16 {
-     background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
+ .img13 {
+   background: url("") no-repeat 50% 50%;
+   background-size: cover;
+ }
+ .img14 {
+   background: url("") no-repeat 50% 50%;
+   background-size: cover;
+ }
+ .img15 {
+   background: url("") no-repeat 50% 50%;
+   background-size: cover;
+ }
+ .img16 {
+   background: url("") no-repeat 50% 50%;
+   background-size: cover;
+ }
 
     //
     .img17 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img18 {
+     background-size: cover;
+   }
+   .img18 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img19 {
+     background-size: cover;
+   }
+   .img19 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
-    .img20 {
+     background-size: cover;
+   }
+   .img20 {
      background: url("") no-repeat 50% 50%;
-      background-size: cover;
-    }
+     background-size: cover;
+   }
 
-    
- 
-}
+
+
+ }
 
 //CORP. ENG
 
@@ -1059,56 +1149,56 @@ color: @w;
 
 
 #feedback {
-   background: @lb;
-   padding: 50px auto;
-  .container { padding:50px; padding-bottom: 20px;}
-  h2 {
+ background: @lb;
+ padding: 50px auto;
+ .container { padding:50px; padding-bottom: 20px;}
+ h2 {
    font-size:2.5em;
-    display: block;
-    padding: 20px;
-      border-top: 3px solid @w;
-      border-bottom: 3px solid @w;
-      margin: 70px auto 0px auto;
-      width: 400px;
-  }
-  .container {
-    color: @w;
-    h2 {margin-top: 50px;}
-    p {margin: 50px 10px; }
-    .feedback_form {
-      margin: 50px 50px 0 50px;
-      .img { 
-        width: 25px;
-        height: 25px;
-        position: absolute;
-      }
-      .img1 {
+   display: block;
+   padding: 20px;
+   border-top: 3px solid @w;
+   border-bottom: 3px solid @w;
+   margin: 70px auto 0px auto;
+   width: 400px;
+ }
+ .container {
+  color: @w;
+  h2 {margin-top: 50px;}
+  p {margin: 50px 10px; }
+  .feedback_form {
+    margin: 50px 50px 0 50px;
+    .img { 
+      width: 25px;
+      height: 25px;
+      position: absolute;
+    }
+    .img1 {
       top: 75px;
       background: url("http://fs172.www.ex.ua/show/997259611822/237161184/237161184.png?1600") no-repeat;
       background-size: cover;
-      }
-      .img2 {
+    }
+    .img2 {
       top: 132px;
       background: url("http://fs172.www.ex.ua/show/997259611822/237161194/237161194.png?1600") no-repeat;
       background-size: cover;
-      }
-      .img3 {
+    }
+    .img3 {
       top: 187px;
       background: url("http://fs172.www.ex.ua/show/997259611822/237161196/237161196.png?1600") no-repeat;
       background-size: cover;
-      }
-      
-      .val_false {display: block;height: 5px; padding-left: 30px; color: darkred;}
-      input {
-        display:inline-block;
-        width: 95%;
-        margin: 15px 0px 0px 30px;
-        height: 40px;
-      }
-      #message {  display:inline-block;
-        width: 95%;
-        margin: 15px 0px 0px 30px;}
-            
+    }
+
+    .val_false {display: block;height: 5px; padding-left: 30px; color: darkred;}
+    input {
+      display:inline-block;
+      width: 95%;
+      margin: 15px 0px 0px 30px;
+      height: 40px;
+    }
+    #message {  display:inline-block;
+      width: 95%;
+      margin: 15px 0px 0px 30px;}
+
       input:focus {
         color: @db;
         border-color: @mb;
@@ -1116,24 +1206,24 @@ color: @w;
       
       textarea:focus{
        color: @db;
-        border-color: @mb;
-      }
-      
-    }
-    .button {
-      margin: 50px auto;
-     border-color:@db;
-      color: @db;
-      button {
-        background: none;
-        padding: 50px auto;
-        height: 50px;
-        width: 200px;
-        border: none;
-        font-size: 1.6em;
-      }
+       border-color: @mb;
+     }
+
+   }
+   .button {
+    margin: 50px auto;
+    border-color:@db;
+    color: @db;
+    button {
+      background: none;
+      padding: 50px auto;
+      height: 50px;
+      width: 200px;
+      border: none;
+      font-size: 1.6em;
     }
   }
+}
 }
 
 #map {
@@ -1182,146 +1272,190 @@ footer {
 
 /////////////////////////////////////////
 ////////////////////////////////////////
-    /* Media queries */
+/* Media queries */
 ////////////////////////////////////////
 ///////////////////////////////////////
 
 
-    /*PHONE*/
-    @media all and (max-width:767px) {
-      .container { max-width: 730px;}
+/*PHONE*/
+@media all and (max-width:767px) {
+  .container { max-width: 730px;}
 
-          header {
-           #navigation {
-            .navbar{background: none;box-shadow: none;
-              .navbar-collapse {background: @db;}
-            }
+  header {
+   #navigation {
+    .navbar{background: none;box-shadow: none;
+      .navbar-collapse {background: @db;}
+    }
 
-          }
-        }
+  }
+}
 
 // MAIN PAGE
-      #blue, .image {height: 580px;}
-     #title {
-         top: 70px;
-       #h1 {width: 230px; height: 110px}
-         h1 {font-size: 3.5em;  }
-         p {margin-top:50px; padding: 10px 30px; font-size: 1.2em;}
-         img {width: 100px; }
-       .number {font-size: 1.5em;}
-       }
+#blue, .image {height: 580px;}
+#title {
+ top: 70px;
+ #h1 {width: 230px; height: 110px}
+ h1 {font-size: 3.5em;  }
+ p {margin-top:50px; padding: 10px 30px; font-size: 1.2em;}
+ img {width: 100px; }
+ .number {font-size: 1.5em;}
+}
 
-    #we_are{
-      padding-top: 10px;
-      h2 {font-size: 1.8em; width: 230px}
-        p{ padding: 20px 10px;}
-      .container {
-        padding-bottom: 50px;
+#we_are{
+  padding-top: 10px;
+  h2 {font-size: 1.8em; width: 230px}
+  p{ padding: 20px 10px;}
+  .container {
+    padding-bottom: 50px;
+  }
+}
+
+#services {
+
+  .container {
+    .serv_h2 {
+      padding: 0;
+      h2 {font-size: 1.8em; width: 230px; text-align: center;}}
+      .service{
+        .s_icon{p {font-size: 1.25em; line-height: 1}}
       }
     }
+  }
 
-    #services {
-      
-      .container {
-        .serv_h2 {
-          padding: 0;
-          h2 {font-size: 1.8em; width: 230px; text-align: center;}}
-        .service{
-          .s_icon{p {font-size: 1.25em; line-height: 1}}
-        }
-      }
-    }
+  #works {
+   h2 {font-size: 1.22em; width: 230px}
+   .carousel-block {
+    width: 225px;
+    p {text-align: center;}
+  }
+}
 
-    #works {
-       h2 {font-size: 1.22em; width: 230px}
-      .carousel-block {
-        width: 225px;
-        p {text-align: center;}
-      }
-    }
-
-    #line {display: none;}
+#line {display: none;}
 
 //MAIN PAGE END
 
 // SERVICES 
 
 #services_page  {
-      .service {
-      p {
-       font-size: 1.3em;
-        }
-          }
-  }
-  
+  .service {
+    p {
+     font-size: 1.3em;
+   }
+ }
+}
+
 // SERVICES END
 
 // ABOUT US
 
 #about {
-    .logo {
-    img { width: 30%;  margin-left: 35%;}
+
+h1 {font-size: 1.8em; width: 230px}
+h2 { font-size: 1.5em; width: 230px}
+p {padding: 0;
+font-size: 1em;}
+
+.logo_s {
+    .f1 {
+       left: 150px;
     }
+
+    .f2 {
+      left: 115px;
+    }
+
+    .f3 {
+       left: 80px;
+    }
+
+    .f4 {
+       left: 80px;
+    }
+
+    .f5 {
+      left: 109.5px;
+
+    }
+
+    .f6 {
+      left: 109.5px;
+    }
+
+     .f7 {
+      left: 74px;
+    }
+
+    .f8 {
+     left: 39px;
+    }
+}
+ 
+}
+
+#priorities {
+  .container {padding: 0;
+.col-xs-12 {padding: 10px; margin: 0;}
   }
-  
-  #priorities {
-    .desc {
-      p {padding: 30px 10px 0px 10px;}
-    }
-    .ic1 {
-     background-size: 20%;
-     }
-    .ic2 {
-     background-size: 20%;
-     }
-    .ic3 {
-      background-size: 15%;
-     }
+  h2 { font-size: 1.5em; width: 230px}
+  .desc {
+    p {padding: 30px 10px 0px 10px;}
+  }
+  .ic1 {
+   background-size: 20%;
+ }
+ .ic2 {
+   background-size: 20%;
+ }
+ .ic3 {
+  background-size: 15%;
+}
 }
 
 //ABOUT US END
 
 // PORTFOLIO
 #works {
-    .our_works {
-      .tabs {
-        padding: 5%;
-        li {padding:5px 9%;}
-        a {
-         opacity: 0;
-        }
-        .t1 {
-           background-image: url("img/icon/book.png") ;
-          background-repeat: no-repeat;
-          background-position: 50% 50%;
-          background-size:  45%;
-          a { font-size: 0em; }
-        }
-        .t2 {
-           background-image: url("img/icon/corp.png") ;
-          background-repeat: no-repeat;
-          background-position: 50% 50%;
-           background-size:  45%;
-          a { font-size: 0em;}
-        }
-        .t3 {
-           background-image: url("img/icon/visit.png") ;
-          background-repeat: no-repeat;
-          background-position: 50% 50%;
-           background-size:  45%;
-          a { font-size: 0em;}
-        }
-        .t4 {
-           background-image: url("img/icon/signboard.png") ;
-          background-repeat: no-repeat;
-          background-position: 50% 50%;
-           background-size: 45%;
-          a { font-size: 0em;}
-        }
- 
-      }
-    } 
-  }
+  h1 {font-size: 1.8em;}
+
+  .our_works {
+    .tabs {
+      padding: 5%;
+      li {padding:5px 9%;}
+      a {
+       opacity: 0;
+     }
+     .t1 {
+       background-image: url("img/icon/book.png") ;
+       background-repeat: no-repeat;
+       background-position: 50% 50%;
+       background-size:  45%;
+       a { font-size: 0em; }
+     }
+     .t2 {
+       background-image: url("img/icon/corp.png") ;
+       background-repeat: no-repeat;
+       background-position: 50% 50%;
+       background-size:  45%;
+       a { font-size: 0em;}
+     }
+     .t3 {
+       background-image: url("img/icon/visit.png") ;
+       background-repeat: no-repeat;
+       background-position: 50% 50%;
+       background-size:  45%;
+       a { font-size: 0em;}
+     }
+     .t4 {
+       background-image: url("img/icon/signboard.png") ;
+       background-repeat: no-repeat;
+       background-position: 50% 50%;
+       background-size: 45%;
+       a { font-size: 0em;}
+     }
+
+   }
+ } 
+}
 //PORTFLIO END
 
 
@@ -1329,123 +1463,130 @@ footer {
 .head { padding: 50px 0; }
 
 .tab_content {
-h1 {font-size: 2em;}
-    p {padding: 0px; margin: 0;}
-    aside {
-      .aside { padding: 0; margin: 0;}
-      ul { 
-        li  {
-          margin: 5px 0; padding: 20px;
-          
-         a {  
-          writing-mode: vertical-lr; transform: rotate(180deg); font-size: 0.8em;} }}
-    }
-    .tab-current{
-      padding: 1px;
-      margin-top: 0px;
-    }
-    .border { border: none; }
-    .img {display: none;}
+  h1 {font-size: 2em;}
+  p {padding: 0px; margin: 0;}
+  aside {
+    .aside { padding: 0; margin: 0;}
+    ul { 
+      li  {
+        margin: 5px 0; padding: 20px;
 
-}
+        a {  
+          writing-mode: vertical-lr; transform: rotate(180deg); font-size: 0.8em;} }}
+        }
+        .tab-current{
+          padding: 1px;
+          margin-top: 0px;
+        }
+        .border { border: none; }
+        .img {display: none;}
+
+      }
 //SERVICES CONTENT END
 
       //SCHEME
 
 
       #scheme {
-        
+
         img {margin-bottom: 0;}
         h2 {width: 230px;
-        font-size: 1.8em;
+          font-size: 1.8em;
         }
         
       }
       
       // SCHEME END
 
-    #feedback {
-      .container {padding: 0;}
- h2 {font-size: 1.8em; width: 230px}
-      margin: 20px 0px;
-      #line {display: block;}
-      .input {
-        margin: 0px;
+      #feedback {
+        .container {padding: 0;}
+        h2 {font-size: 1.8em; width: 230px}
+        margin: 20px 0px;
+        #line {display: block;}
+        .input {
+          margin: 0px;
+        }
+        p{text-align: center;}
       }
-      p{text-align: center;}
+
+      footer {
+        .left, .right {
+          p { text-align: center; padding: 0}
+        }
+      }
+
+// POLYGRAPHY 
+.head {
+  h1 {font-size: 1.8em;}
+
+}
+// end 
     }
 
-    footer {
-      .left, .right {
-        p { text-align: center; padding: 0}
+
+
+
+    /*TABLETS*/
+    @media all and (min-width:768px) and (max-width:991px){
+      * {margin: 0;}
+      .container {width: 95%; margin: 0;}
+
+  //MAIN PAGE 
+  #title {
+    p { padding: 10px 50px;}
+
+  }
+
+  #services {
+   padding-bottom: 50px;
+   .service {
+     .s_icon {p { font-size: 1.5em;line-height: 1;}}}
+     .button { margin: 15px auto;
+      button {padding: 0;
+        margin: 0;
+        height: 30px;
       }
+
     }
   }
 
 
-
-
-  /*TABLETS*/
-  @media all and (min-width:768px) and (max-width:991px){
-    * {margin: 0;}
-   .container {width: 95%; margin: 0;}
-
-  //MAIN PAGE 
-    #title {
-      p { padding: 10px 50px;}
-
-    }
- 
-     #services {
-       padding-bottom: 50px;
-       .service {
-         .s_icon {p { font-size: 1.5em;line-height: 1;}}}
-        .button { margin: 15px auto;
-          button {padding: 0;
-            margin: 0;
-            height: 30px;
-                     }
-
-        }
-    }
-
-   
 
 // MAIN PAGE END
 
 // ABOUT US
 
-   #priorities {
-      .priority {
-        margin: 50px 20px;
-        .pr{  height: 150px;
-          .icon {
-           padding: 0px;
-           width: 7%;
-           float: left;
-         }
-       }
+#priorities {
+  .priority {
+    margin: 50px 20px;
+    .pr{  height: 150px;
+      .icon {
+       padding: 0px;
+       width: 7%;
+       float: left;
      }
    }
+ }
+}
 
 //ABOUT US END
 
 
 // PORTFOLIO
-  #works {
-    .our_works {
-      .tabs {
-        li {padding: 10px;}
-        a { font-size: 1.2em;}
-      }
-   }
+#works {
+  .our_works {
+    .tabs {
+      li {padding: 10px;}
+      a { font-size: 1.2em;}
+    }
   }
+}
 //PORTFLIO END
 
 // SERVICE CONTENT 
-  .head {
-    padding: 50px 0;
-  }
+.head {
+  padding: 50px 0;
+}
 }
 
 //SERVICE CONTENT END

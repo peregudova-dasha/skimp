@@ -150,3 +150,5 @@ var $0 =  $(".element");
     $(this).find("p").animate({"color": "black"}, 300)
  });
 //end
+
+
