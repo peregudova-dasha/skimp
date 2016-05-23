@@ -6,7 +6,7 @@ $item.mouseenter(function(){
 })
 
 $item.mouseleave(function(){
-  $(this).find(".about_item").hide("drop", 700);
+  $(this).find(".about_item").hide("slide", 700);
 })
 
 
