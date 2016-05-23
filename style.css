@@ -651,7 +651,7 @@ header #navigation .navbar .dropdown-menu li a {
   display: none;
   position: absolute;
   top: 0;
-  width: 50%;
+  width: 75%;
   height: 100%;
   background: #20262d;
   opacity: 0.8;
