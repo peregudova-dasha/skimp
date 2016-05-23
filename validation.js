@@ -4,8 +4,7 @@ function validateForm() {
   var dot = email.indexOf("@");
   var at = email.indexOf(".");
     
- if (name == null || name == "" && email == null || email == "") {   document.getElementById('name_false').innerHTML='*введите Вашe имя';
- document.getElementById('email_false').innerHTML='*введите Ваш email'                                                          document.getElementById('email_false').innerHTML='*введите Ваш email';
+ if (name == null || name == "" && email == null || email == "") {   document.getElementById('name_false').innerHTML='*введите Вашe имя';                                                          document.getElementById('email_false').innerHTML='*введите Ваш email';
     return false;
   } 
   
