@@ -133,11 +133,11 @@ var $0 =  $(".element");
 
 
  $(window).scroll(function(){
-   if ( $(this).scrollTop() > 1900){
-     $1.show('blind',1000);
-        $2.delay(500).show('blind',1000);
-        $3.delay(1000).show('blind',1000);
-        $4.delay(1500).show('blind',1000);
+   if ( $(this).scrollTop() > 1800){
+     $1.show('scale',1000);
+        $2.delay(500).show('scale',1000);
+        $3.delay(1000).show('scale',1000);
+        $4.delay(1500).show('scale',1000);
    }
  })
  
