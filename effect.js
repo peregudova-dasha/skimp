@@ -142,11 +142,11 @@ var $0 =  $(".element");
  })
  
  $0.mouseenter(function(){
-   $(this).find("img").animate({ width: "+=105%"}, 500);
+   $(this).find("img").animate({"opacity": "0.6"}, 500);
    $(this).find("p").animate({"color": "white"}, 300)
  });
   $0.mouseleave(function(){
-   $(this).find("img").animate({width: "+=100%"}, 500);
+   $(this).find("img").animate({"opacity": "1"}, 500);
     $(this).find("p").animate({"color": "black"}, 300)
  });
 //end
