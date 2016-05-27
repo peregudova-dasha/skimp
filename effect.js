@@ -142,7 +142,7 @@ var $0 =  $(".element");
  })
  
  $0.mouseenter(function(){
-   $(this).find("img").animate({"opacity": "0.6"}, 500);
+   $(this).find("img").animate({"opacity": "0.6", width: "+=110%"}, 500);
    $(this).find("p").animate({"color": "white"}, 300)
  });
   $0.mouseleave(function(){
