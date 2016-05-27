@@ -1328,52 +1328,52 @@ footer .right p {
   #priorities .ic3 {
     background-size: 15%;
   }
-  #works h1 {
+  #work h1 {
     font-size: 1.8em;
   }
-  #works .our_works .tabs {
+  #work .our_works .tabs {
     padding: 5%;
   }
-  #works .our_works .tabs li {
+  #work .our_works .tabs li {
     padding: 5px 9%;
   }
-  #works .our_works .tabs a {
+  #work .our_works .tabs a {
     opacity: 0;
   }
-  #works .our_works .tabs .t1 {
+  #work .our_works .tabs .t1 {
     background-image: url("img/icon/book.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 45%;
   }
-  #works .our_works .tabs .t1 a {
+  #work .our_works .tabs .t1 a {
     font-size: 0em;
   }
-  #works .our_works .tabs .t2 {
+  #work .our_works .tabs .t2 {
     background-image: url("img/icon/corp.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 45%;
   }
-  #works .our_works .tabs .t2 a {
+  #work .our_works .tabs .t2 a {
     font-size: 0em;
   }
-  #works .our_works .tabs .t3 {
+  #work .our_works .tabs .t3 {
     background-image: url("img/icon/visit.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 45%;
   }
-  #works .our_works .tabs .t3 a {
+  #work .our_works .tabs .t3 a {
     font-size: 0em;
   }
-  #works .our_works .tabs .t4 {
+  #work .our_works .tabs .t4 {
     background-image: url("img/icon/signboard.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 45%;
   }
-  #works .our_works .tabs .t4 a {
+  #work .our_works .tabs .t4 a {
     font-size: 0em;
   }
   .head {
