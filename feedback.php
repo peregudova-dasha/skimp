@@ -16,7 +16,7 @@ $msg  = "<html><body style='font-family:Arial,sans-serif;'>";
 $msg .= "<h2 style='font-weight:bold;border-bottom:1px dotted #ccc;'>Cообщение с сайта</h2>\r\n";
 $msg .= "<p><strong>От кого:</strong> ".$username."</p>\r\n";
 $msg .= "<p><strong>Почта:</strong> ".$usermail."</p>\r\n";
-$msg .= "<p><strong>Сайт:</strong> ".$message."</p>\r\n";
+$msg .= "<p><strong>Текст сообщения:</strong> ".$message."</p>\r\n";
 $msg .= "</body></html>";
  
 // отправка сообщения
