@@ -1,5 +1,4 @@
-
- 
+<?php
 $sendto   = "dasha.peregudova@gmail.com"; // почта, на которую будет приходить письмо
 $username = $_POST['name'];   // сохраняем в переменную данные полученные из поля c именем
 $message = $_POST['message']; // сохраняем в переменную данные полученные из поля c text
@@ -26,4 +25,4 @@ if(@mail($sendto, $subject, $msg, $headers)) {
 } else {
     echo "<center><p>noooo</p></center>";
 }
- 
+ ?>
