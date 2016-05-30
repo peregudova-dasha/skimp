@@ -1187,6 +1187,9 @@ footer .right p {
   header #navigation .navbar .navbar-collapse {
     background: #2d3640;
   }
+  header #navigation .navbar-right {
+    height: 100%;
+  }
   #blue,
   .image {
     height: 580px;
@@ -1253,6 +1256,9 @@ footer .right p {
   #services_page .service p {
     font-size: 1.3em;
   }
+  #about .s {
+    display: none;
+  }
   #about h1 {
     font-size: 1.8em;
     width: 230px;
@@ -1263,31 +1269,7 @@ footer .right p {
   }
   #about p {
     padding: 0;
-    font-size: 1em;
-  }
-  #about .logo_s .f1 {
-    left: 150px;
-  }
-  #about .logo_s .f2 {
-    left: 115px;
-  }
-  #about .logo_s .f3 {
-    left: 80px;
-  }
-  #about .logo_s .f4 {
-    left: 80px;
-  }
-  #about .logo_s .f5 {
-    left: 109.5px;
-  }
-  #about .logo_s .f6 {
-    left: 109.5px;
-  }
-  #about .logo_s .f7 {
-    left: 74px;
-  }
-  #about .logo_s .f8 {
-    left: 39px;
+    font-size: 1.5em;
   }
   #priorities .container {
     padding: 0;
@@ -1453,6 +1435,9 @@ footer .right p {
     padding: 0;
     margin: 0;
     height: 30px;
+  }
+  #about .s {
+    display: none;
   }
   #priorities .priority {
     margin: 50px 20px;
