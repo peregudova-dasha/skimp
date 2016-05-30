@@ -73,7 +73,7 @@ p { font-size: @p; }
         border-radius: 0px;
         a:hover {background: @mb; color: @w;}
         ul {
-          font-size: 1.25em;
+          font-size: 1.25em; 
           li {
             a { color: @w; }
           }
@@ -1263,10 +1263,17 @@ footer {
 
   header {
    #navigation {
-    .navbar{background: none;box-shadow: none;
+    
+     
+    .navbar{
+      background: none;
+      box-shadow: none;
       .navbar-collapse {background: @db;}
+    
     }
-
+  .navbar-right {
+        height: 100%;
+      }
   }
 }
 
@@ -1329,12 +1336,12 @@ footer {
 // ABOUT US
 
 #about {
-
+  .s {display: none;}
 h1 {font-size: 1.8em; width: 230px}
 h2 { font-size: 1.5em; width: 230px}
 p {padding: 0;
-font-size: 1em;}
-
+font-size: 1.5em;}
+/*
 .logo_s {
     .f1 {
        left: 150px;
@@ -1368,7 +1375,7 @@ font-size: 1em;}
     .f8 {
      left: 39px;
     }
-}
+} */
  
 }
 
@@ -1535,7 +1542,12 @@ font-size: 1em;}
 // MAIN PAGE END
 
 // ABOUT US
-
+      #about {
+         .s {
+          display: none;
+        }
+      }
+      
 #priorities {
   .priority {
     margin: 50px 20px;
