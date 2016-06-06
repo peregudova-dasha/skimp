@@ -748,6 +748,9 @@ header #navigation .navbar .dropdown-menu li a {
   font-size: 1.3em;
   margin: 5px;
 }
+#to_portfolio .button {
+  width: 300px;
+}
 #polygraphy .img1 {
   background: url("img/polygraphy/note1.jpg") no-repeat 50% 50%;
   background-size: contain;
@@ -973,51 +976,51 @@ header #navigation .navbar .dropdown-menu li a {
   background-size: cover;
 }
 #corp .img1 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/s1.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img2 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/s2.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img3 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/s3.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img4 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/s4.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img5 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/p1.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img6 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/p2.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img7 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/p3.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img8 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/p4.jpg") no-repeat 50% 50%;
   background-size: contain;
 }
 #corp .img9 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/t1.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 #corp .img10 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/t2.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 #corp .img11 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/t3.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 #corp .img12 {
-  background: url("") no-repeat 50% 50%;
+  background: url("img/corp/t4.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 #corp .img13 {
